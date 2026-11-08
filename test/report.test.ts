@@ -192,7 +192,7 @@ describe('output encoding of hostile input', () => {
   it('carries the attribution in every format', () => {
     expect(renderMarkdown(r)).toContain('[Evenkeel by AFKzona Group](<https://afkzonagroup.lt>)');
     expect(renderHtml(r)).toContain('<footer><a href="https://afkzonagroup.lt" rel="noopener noreferrer">Evenkeel by AFKzona Group</a>');
-    expect(renderCsv(r)).toContain('meta,,,,generator,Evenkeel by AFKzona Group 0.1.0,ok,');
+    expect(renderCsv(r)).toContain('meta,,,,generator,Evenkeel by AFKzona Group 0.1.1,ok,');
     expect(JSON.parse(renderJson(r))).toMatchObject({ generator: { attribution: 'Evenkeel by AFKzona Group' } });
   });
 });

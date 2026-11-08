@@ -11,7 +11,7 @@ from .fixed import SCALE, DecimalError, divide_fixed, format_fraction, parse_dec
 from .indicators import Settings, Worker, compute_indicators, pay_levels
 from .records import Columns, GenderCodes, RowError, ValidationFailed, workers_from_dataframe, workers_from_rows
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 ATTRIBUTION = "Evenkeel by AFKzona Group"
 
 __all__ = [
