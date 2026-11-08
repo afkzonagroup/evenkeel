@@ -272,12 +272,10 @@ an attribution term under section 7(b): interfaces and generated reports keep
 the notice "Evenkeel by AFKzona Group" with its link
 ([LICENSE-ADDITIONAL-TERMS.md](LICENSE-ADDITIONAL-TERMS.md)).
 
-A commercial licence without the AGPL obligations is available
-([COMMERCIAL.md](COMMERCIAL.md)). It also covers the **Enterprise** offering
-from AFKzona Group, which is not part of this repository: hosted dashboard,
-continuous monitoring across entities and countries, SSO/SAML, roles and
-permissions, audit evidence packs, a legal-update feed on national
-transposition, white-label reports, and SLA-backed support. Contact
+MB AFKzona Group offers a commercial licence for organisations that cannot
+use the AGPL-3.0 terms (including white-label use without the attribution
+notice), integration into your systems, custom connectors and features, and
+support agreements. See [COMMERCIAL.md](COMMERCIAL.md). Contact
 info@afkzonagroup.lt.
 
 "Evenkeel" is a trademark of MB AFKzona Group; forks must use another name
