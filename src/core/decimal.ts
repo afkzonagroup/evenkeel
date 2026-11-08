@@ -88,7 +88,7 @@ export function parseDecimal(text: string, format: DecimalFormat): ParseDecimalR
   if (format.thousandsSeparator !== 'none' && format.thousandsSeparator === format.decimalSeparator) {
     return { ok: false, reason: 'decimal and thousands separators must differ' };
   }
-  let s = text.replace(/^ +| +$/g, '');
+  let s = trimAsciiSpaces(text);
   if (s.length === 0) return { ok: false, reason: 'empty value' };
   if (s.length > 64) return { ok: false, reason: 'value is too long' };
   let negative = false;
@@ -288,4 +288,16 @@ export function groupDecimalString(plain: string, decimalSeparator: string, thou
   }
   const out = fracPart === undefined ? grouped : `${grouped}${decimalSeparator}${fracPart}`;
   return negative ? `-${out}` : out;
+}
+
+/**
+ * Removes leading and trailing ASCII spaces in one linear pass. A `/ +$/` expression backtracks
+ * quadratically on long runs of spaces that are not at the end of the value.
+ */
+function trimAsciiSpaces(text: string): string {
+  let start = 0;
+  let end = text.length;
+  while (start < end && text.charCodeAt(start) === 0x20) start++;
+  while (end > start && text.charCodeAt(end - 1) === 0x20) end--;
+  return text.slice(start, end);
 }
