@@ -137,3 +137,13 @@ describe('rounding and division', () => {
     expect(groupDecimalString('0.50', '.', ',')).toBe('0.50');
   });
 });
+
+describe('parseDecimal on long runs of spaces', () => {
+  it('trims surrounding ASCII spaces in linear time', () => {
+    const hostile = `${' '.repeat(200_000)}x`;
+    const t0 = performance.now();
+    expect(parseDecimal(hostile, DOT).ok).toBe(false);
+    expect(parseDecimal(`  12.5  `, DOT)).toEqual({ ok: true, value: parsed('12.5') });
+    expect(performance.now() - t0).toBeLessThan(500);
+  });
+});
