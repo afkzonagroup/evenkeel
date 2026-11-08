@@ -6,6 +6,17 @@ project uses [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased]
 
+## [0.1.1] - 2026-11-08
+
+### Fixed
+
+- Decimal parsing trims surrounding spaces in linear time (#18).
+
+### Changed
+
+- Dependabot groups minor and patch updates and ignores major versions (#17).
+- Release workflow skips versions already on npm.
+
 ## [0.1.0] - 2026-11-08
 
 ### Added
@@ -32,5 +43,6 @@ project uses [Semantic Versioning](https://semver.org/).
   adapter, and shared JSON test vectors used by both implementations.
 - Example column-mapping templates for HR exports.
 
-[Unreleased]: https://github.com/afkzonagroup/evenkeel/compare/v0.1.0...HEAD
+[Unreleased]: https://github.com/afkzonagroup/evenkeel/compare/v0.1.1...HEAD
+[0.1.1]: https://github.com/afkzonagroup/evenkeel/compare/v0.1.0...v0.1.1
 [0.1.0]: https://github.com/afkzonagroup/evenkeel/releases/tag/v0.1.0

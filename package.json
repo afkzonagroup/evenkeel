@@ -1,6 +1,6 @@
 {
   "name": "@afkzona/evenkeel",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Pay-gap indicators of the EU Pay Transparency Directive (EU) 2023/970, computed locally from a payroll CSV: Article 9 indicators, Article 10 joint pay assessment trigger, Article 5 and 7 helpers, reports.",
   "license": "AGPL-3.0-only",
   "author": "MB AFKzona Group",

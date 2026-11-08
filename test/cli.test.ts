@@ -47,7 +47,7 @@ describe('evenkeel CLI', () => {
     expect(await run([], memoryIo().io)).toBe(2);
     const v = memoryIo();
     expect(await run(['--version'], v.io)).toBe(0);
-    expect(v.out()).toBe('0.1.0\n');
+    expect(v.out()).toBe('0.1.1\n');
   });
 
   it('writes a config template whose open choices must be made before use', async () => {
