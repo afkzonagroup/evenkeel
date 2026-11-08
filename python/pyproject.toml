@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools==80.9.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "evenkeel"
+version = "0.1.0"
+description = "Pay-gap indicators of the EU Pay Transparency Directive (EU) 2023/970, computed locally. Same formulas as the Evenkeel TypeScript package."
+readme = "README.md"
+requires-python = ">=3.10"
+license = "AGPL-3.0-only"
+license-files = ["LICENSE", "LICENSE-ADDITIONAL-TERMS.md"]
+authors = [{ name = "MB AFKzona Group" }]
+keywords = ["pay transparency", "gender pay gap", "directive 2023/970", "equal pay"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Operating System :: OS Independent",
+  "Intended Audience :: Developers",
+]
+dependencies = []
+
+[project.optional-dependencies]
+pandas = ["pandas>=2.0"]
+
+[project.urls]
+Homepage = "https://github.com/afkzonagroup/evenkeel"
+Issues = "https://github.com/afkzonagroup/evenkeel/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]

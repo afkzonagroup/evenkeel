@@ -1,0 +1,4145 @@
+{
+  "format": 1,
+  "description": "Generated cross-check vectors: pseudo-random datasets with the full output of the TypeScript implementation. They check that other implementations agree with it; they are not hand-verified. Regenerate with `npm run build && node scripts/generate-vectors.mjs` only after an intended change of results.",
+  "vectors": [
+    {
+      "name": "generated-80-both-bases-fte-recipients",
+      "origin": "generated-by-typescript",
+      "settings": {
+        "payBases": [
+          "annual",
+          "hourly"
+        ],
+        "annualPay": "full-time-equivalent",
+        "complementaryGapPopulation": "recipients",
+        "quartileMethod": "exact-equal-groups",
+        "minimumGroupSize": 5,
+        "otherGender": "include-in-totals",
+        "decimals": 2,
+        "suppressSmallGroups": true
+      },
+      "workers": [
+        {
+          "id": "g970-0",
+          "gender": "female",
+          "category": "Support",
+          "basic": "39177.15",
+          "complementary": "8265.57",
+          "hours": "1365.00",
+          "fte": "0.8"
+        },
+        {
+          "id": "g970-1",
+          "gender": "female",
+          "category": "Support",
+          "basic": "46739.09",
+          "complementary": "0",
+          "hours": "1028",
+          "fte": "0.6"
+        },
+        {
+          "id": "g970-2",
+          "gender": "male",
+          "category": "Sales",
+          "basic": "55707.00",
+          "complementary": "0",
+          "hours": "857.00",
+          "fte": "0.5"
+        },
+        {
+          "id": "g970-3",
+          "gender": "male",
+          "category": "Support",
+          "basic": "48162.48",
+          "complementary": "3279.89",
+          "hours": "841.00",
+          "fte": "0.5"
+        },
+        {
+          "id": "g970-4",
+          "gender": "female",
+          "category": "Operations",
+          "basic": "58220.51",
+          "complementary": "3015.01",
+          "hours": "1709.00",
+          "fte": "1"
+        },
+        {
+          "id": "g970-5",
+          "gender": "female",
+          "category": "Engineering",
+          "basic": "27902.84",
+          "complementary": "0",
+          "hours": "1690",
+          "fte": "1"
+        },
+        {
+          "id": "g970-6",
+          "gender": "male",
+          "category": "Sales",
+          "basic": "45708.38",
+          "complementary": "5872.89",
+          "hours": "856.00",
+          "fte": "0.5"
+        },
+        {
+          "id": "g970-7",
+          "gender": "female",
+          "category": "Sales",
+          "basic": "41755.56",
+          "complementary": "2694.45",
+          "hours": "1372",
+          "fte": "0.8"
+        },
+        {
+          "id": "g970-8",
+          "gender": "male",
+          "category": "Engineering",
+          "basic": "66770.72",
+          "complementary": "0",
+          "hours": "1705.00",
+          "fte": "1"
+        },
+        {
+          "id": "g970-9",
+          "gender": "female",
+          "category": "Sales",
+          "basic": "53006.27",
+          "complementary": "1107.89",
+          "hours": "1692.00",
+          "fte": "1"
+        },
+        {
+          "id": "g970-10",
+          "gender": "female",
+          "category": "Sales",
+          "basic": "51038.48",
+          "complementary": "0",
+          "hours": "1714",
+          "fte": "1"
+        },
+        {
+          "id": "g970-11",
+          "gender": "male",
+          "category": "Sales",
+          "basic": "46143.64",
+          "complementary": "0",
+          "hours": "1694.00",
+          "fte": "1"
+        },
+        {
+          "id": "g970-12",
+          "gender": "female",
+          "category": "Support",
+          "basic": "52125.99",
+          "complementary": "8841.12",
+          "hours": "1717",
+          "fte": "1"
+        },
+        {
+          "id": "g970-13",
+          "gender": "female",
+          "category": "Operations",
+          "basic": "56416.77",
+          "complementary": "0",
+          "hours": "1695",
+          "fte": "1"
+        },
+        {
+          "id": "g970-14",
+          "gender": "female",
+          "category": "Operations",
+          "basic": "69172.92",
+          "complementary": "0",
+          "hours": "1029",
+          "fte": "0.6"
+        },
+        {
+          "id": "g970-15",
+          "gender": "female",
+          "category": "Support",
+          "basic": "50258.94",
+          "complementary": "7741.13",
+          "hours": "1687",
+          "fte": "1"
+        },
+        {
+          "id": "g970-16",
+          "gender": "female",
+          "category": "Support",
+          "basic": "41361.44",
+          "complementary": "3290.03",
+          "hours": "1696",
+          "fte": "1"
+        },
+        {
+          "id": "g970-17",
+          "gender": "male",
+          "category": "Support",
+          "basic": "53051.62",
+          "complementary": "4480.74",
+          "hours": "1363.00",
+          "fte": "0.8"
+        },
+        {
+          "id": "g970-18",
+          "gender": "male",
+          "category": "Support",
+          "basic": "54555.15",
+          "complementary": "0",
+          "hours": "1694.00",
+          "fte": "1"
+        },
+        {
+          "id": "g970-19",
+          "gender": "female",
+          "category": "Support",
+          "basic": "28077.95",
+          "complementary": "1317.87",
+          "hours": "1372.00",
+          "fte": "0.8"
+        },
+        {
+          "id": "g970-20",
+          "gender": "male",
+          "category": "Sales",
+          "basic": "48330.72",
+          "complementary": "402.08",
+          "hours": "856",
+          "fte": "0.5"
+        },
+        {
+          "id": "g970-21",
+          "gender": "female",
+          "category": "Operations",
+          "basic": "51514.38",
+          "complementary": "0",
+          "hours": "1707",
+          "fte": "1"
+        },
+        {
+          "id": "g970-22",
+          "gender": "female",
+          "category": "Operations",
+          "basic": "38865.06",
+          "complementary": "0",
+          "hours": "837",
+          "fte": "0.5"
+        },
+        {
+          "id": "g970-23",
+          "gender": "female",
+          "category": "Operations",
+          "basic": "42083.20",
+          "complementary": "262.14",
+          "hours": "859",
+          "fte": "0.5"
+        },
+        {
+          "id": "g970-24",
+          "gender": "male",
+          "category": "Sales",
+          "basic": "48540.50",
+          "complementary": "5404.92",
+          "hours": "1695",
+          "fte": "1"
+        },
+        {
+          "id": "g970-25",
+          "gender": "female",
+          "category": "Operations",
+          "basic": "46228.73",
+          "complementary": "0",
+          "hours": "1694.00",
+          "fte": "1"
+        },
+        {
+          "id": "g970-26",
+          "gender": "male",
+          "category": "Sales",
+          "basic": "54927.34",
+          "complementary": "8191.57",
+          "hours": "1704.00",
+          "fte": "1"
+        },
+        {
+          "id": "g970-27",
+          "gender": "male",
+          "category": "Sales",
+          "basic": "51222.62",
+          "complementary": "0",
+          "hours": "1026",
+          "fte": "0.6"
+        },
+        {
+          "id": "g970-28",
+          "gender": "male",
+          "category": "Sales",
+          "basic": "64373.46",
+          "complementary": "8949.50",
+          "hours": "1020.00",
+          "fte": "0.6"
+        },
+        {
+          "id": "g970-29",
+          "gender": "male",
+          "category": "Operations",
+          "basic": "37386.04",
+          "complementary": "7514.17",
+          "hours": "1690",
+          "fte": "1"
+        },
+        {
+          "id": "g970-30",
+          "gender": "male",
+          "category": "Engineering",
+          "basic": "27136.11",
+          "complementary": "3154.80",
+          "hours": "1718",
+          "fte": "1"
+        },
+        {
+          "id": "g970-31",
+          "gender": "female",
+          "category": "Sales",
+          "basic": "61144.58",
+          "complementary": "1552.99",
+          "hours": "1712",
+          "fte": "1"
+        },
+        {
+          "id": "g970-32",
+          "gender": "female",
+          "category": "Sales",
+          "basic": "62231.38",
+          "complementary": "6664.96",
+          "hours": "1693.00",
+          "fte": "1"
+        },
+        {
+          "id": "g970-33",
+          "gender": "male",
+          "category": "Operations",
+          "basic": "37886.95",
+          "complementary": "2704.93",
+          "hours": "1718.00",
+          "fte": "1"
+        },
+        {
+          "id": "g970-34",
+          "gender": "male",
+          "category": "Support",
+          "basic": "55290.97",
+          "complementary": "0",
+          "hours": "1011",
+          "fte": "0.6"
+        },
+        {
+          "id": "g970-35",
+          "gender": "male",
+          "category": "Sales",
+          "basic": "39594.30",
+          "complementary": "7635.90",
+          "hours": "1369.00",
+          "fte": "0.8"
+        },
+        {
+          "id": "g970-36",
+          "gender": "male",
+          "category": "Support",
+          "basic": "47091.51",
+          "complementary": "1079.47",
+          "hours": "1694.00",
+          "fte": "1"
+        },
+        {
+          "id": "g970-37",
+          "gender": "female",
+          "category": "Engineering",
+          "basic": "44649.51",
+          "complementary": "7208.87",
+          "hours": "1720",
+          "fte": "1"
+        },
+        {
+          "id": "g970-38",
+          "gender": "female",
+          "category": "Engineering",
+          "basic": "29213.15",
+          "complementary": "0",
+          "hours": "1361",
+          "fte": "0.8"
+        },
+        {
+          "id": "g970-39",
+          "gender": "other",
+          "category": "Engineering",
+          "basic": "41308.59",
+          "complementary": "0",
+          "hours": "1684.00",
+          "fte": "1"
+        },
+        {
+          "id": "g970-40",
+          "gender": "male",
+          "category": "Engineering",
+          "basic": "44475.35",
+          "complementary": "0",
+          "hours": "1700",
+          "fte": "1"
+        },
+        {
+          "id": "g970-41",
+          "gender": "male",
+          "category": "Engineering",
+          "basic": "31819.10",
+          "complementary": "0",
+          "hours": "1375",
+          "fte": "0.8"
+        },
+        {
+          "id": "g970-42",
+          "gender": "other",
+          "category": "Engineering",
+          "basic": "65044.91",
+          "complementary": "0",
+          "hours": "824.00",
+          "fte": "0.5"
+        },
+        {
+          "id": "g970-43",
+          "gender": "male",
+          "category": "Sales",
+          "basic": "33779.75",
+          "complementary": "0",
+          "hours": "1684",
+          "fte": "1"
+        },
+        {
+          "id": "g970-44",
+          "gender": "other",
+          "category": "Engineering",
+          "basic": "45456.41",
+          "complementary": "2574.94",
+          "hours": "1689",
+          "fte": "1"
+        },
+        {
+          "id": "g970-45",
+          "gender": "male",
+          "category": "Engineering",
+          "basic": "71218.45",
+          "complementary": "0",
+          "hours": "858.00",
+          "fte": "0.5"
+        },
+        {
+          "id": "g970-46",
+          "gender": "female",
+          "category": "Sales",
+          "basic": "50161.63",
+          "complementary": "0",
+          "hours": "1684.00",
+          "fte": "1"
+        },
+        {
+          "id": "g970-47",
+          "gender": "female",
+          "category": "Engineering",
+          "basic": "36927.04",
+          "complementary": "1414.44",
+          "hours": "1690.00",
+          "fte": "1"
+        },
+        {
+          "id": "g970-48",
+          "gender": "female",
+          "category": "Sales",
+          "basic": "54830.04",
+          "complementary": "0",
+          "hours": "832",
+          "fte": "0.5"
+        },
+        {
+          "id": "g970-49",
+          "gender": "female",
+          "category": "Operations",
+          "basic": "65116.29",
+          "complementary": "7810.89",
+          "hours": "1694",
+          "fte": "1"
+        },
+        {
+          "id": "g970-50",
+          "gender": "female",
+          "category": "Engineering",
+          "basic": "32474.11",
+          "complementary": "0",
+          "hours": "1718.00",
+          "fte": "1"
+        },
+        {
+          "id": "g970-51",
+          "gender": "male",
+          "category": "Support",
+          "basic": "67578.58",
+          "complementary": "0",
+          "hours": "1368.00",
+          "fte": "0.8"
+        },
+        {
+          "id": "g970-52",
+          "gender": "other",
+          "category": "Sales",
+          "basic": "48027.26",
+          "complementary": "5078.17",
+          "hours": "850",
+          "fte": "0.5"
+        },
+        {
+          "id": "g970-53",
+          "gender": "female",
+          "category": "Sales",
+          "basic": "53886.91",
+          "complementary": "0",
+          "hours": "1705.00",
+          "fte": "1"
+        },
+        {
+          "id": "g970-54",
+          "gender": "female",
+          "category": "Engineering",
+          "basic": "46927.02",
+          "complementary": "1257.32",
+          "hours": "1713",
+          "fte": "1"
+        },
+        {
+          "id": "g970-55",
+          "gender": "male",
+          "category": "Support",
+          "basic": "69647.27",
+          "complementary": "0",
+          "hours": "1372",
+          "fte": "0.8"
+        },
+        {
+          "id": "g970-56",
+          "gender": "male",
+          "category": "Engineering",
+          "basic": "69805.02",
+          "complementary": "2426.75",
+          "hours": "821",
+          "fte": "0.5"
+        },
+        {
+          "id": "g970-57",
+          "gender": "male",
+          "category": "Operations",
+          "basic": "35525.84",
+          "complementary": "675.86",
+          "hours": "1345.00",
+          "fte": "0.8"
+        },
+        {
+          "id": "g970-58",
+          "gender": "female",
+          "category": "Support",
+          "basic": "41237.31",
+          "complementary": "0",
+          "hours": "997",
+          "fte": "0.6"
+        },
+        {
+          "id": "g970-59",
+          "gender": "male",
+          "category": "Support",
+          "basic": "35788.68",
+          "complementary": "0",
+          "hours": "1682.00",
+          "fte": "1"
+        },
+        {
+          "id": "g970-60",
+          "gender": "male",
+          "category": "Operations",
+          "basic": "30229.79",
+          "complementary": "1534.30",
+          "hours": "1354",
+          "fte": "0.8"
+        },
+        {
+          "id": "g970-61",
+          "gender": "female",
+          "category": "Engineering",
+          "basic": "52336.70",
+          "complementary": "3230.84",
+          "hours": "1719.00",
+          "fte": "1"
+        },
+        {
+          "id": "g970-62",
+          "gender": "male",
+          "category": "Sales",
+          "basic": "66684.12",
+          "complementary": "0",
+          "hours": "1713.00",
+          "fte": "1"
+        },
+        {
+          "id": "g970-63",
+          "gender": "female",
+          "category": "Sales",
+          "basic": "56324.00",
+          "complementary": "6243.76",
+          "hours": "995",
+          "fte": "0.6"
+        },
+        {
+          "id": "g970-64",
+          "gender": "female",
+          "category": "Operations",
+          "basic": "42372.43",
+          "complementary": "477.33",
+          "hours": "856",
+          "fte": "0.5"
+        },
+        {
+          "id": "g970-65",
+          "gender": "female",
+          "category": "Operations",
+          "basic": "49074.74",
+          "complementary": "1563.83",
+          "hours": "1021.00",
+          "fte": "0.6"
+        },
+        {
+          "id": "g970-66",
+          "gender": "female",
+          "category": "Engineering",
+          "basic": "61650.76",
+          "complementary": "2673.25",
+          "hours": "1682",
+          "fte": "1"
+        },
+        {
+          "id": "g970-67",
+          "gender": "female",
+          "category": "Support",
+          "basic": "43767.74",
+          "complementary": "0",
+          "hours": "999.00",
+          "fte": "0.6"
+        },
+        {
+          "id": "g970-68",
+          "gender": "male",
+          "category": "Sales",
+          "basic": "32855.89",
+          "complementary": "0",
+          "hours": "1686.00",
+          "fte": "1"
+        },
+        {
+          "id": "g970-69",
+          "gender": "male",
+          "category": "Engineering",
+          "basic": "28713.33",
+          "complementary": "0",
+          "hours": "995",
+          "fte": "0.6"
+        },
+        {
+          "id": "g970-70",
+          "gender": "female",
+          "category": "Engineering",
+          "basic": "63782.70",
+          "complementary": "0",
+          "hours": "1700.00",
+          "fte": "1"
+        },
+        {
+          "id": "g970-71",
+          "gender": "male",
+          "category": "Sales",
+          "basic": "37172.34",
+          "complementary": "8572.75",
+          "hours": "1028",
+          "fte": "0.6"
+        },
+        {
+          "id": "g970-72",
+          "gender": "male",
+          "category": "Engineering",
+          "basic": "27914.18",
+          "complementary": "2206.07",
+          "hours": "838",
+          "fte": "0.5"
+        },
+        {
+          "id": "g970-73",
+          "gender": "male",
+          "category": "Sales",
+          "basic": "37972.63",
+          "complementary": "4112.22",
+          "hours": "1720",
+          "fte": "1"
+        },
+        {
+          "id": "g970-74",
+          "gender": "female",
+          "category": "Support",
+          "basic": "61652.10",
+          "complementary": "0",
+          "hours": "825",
+          "fte": "0.5"
+        },
+        {
+          "id": "g970-75",
+          "gender": "male",
+          "category": "Sales",
+          "basic": "54273.38",
+          "complementary": "0",
+          "hours": "993",
+          "fte": "0.6"
+        },
+        {
+          "id": "g970-76",
+          "gender": "female",
+          "category": "Operations",
+          "basic": "67259.61",
+          "complementary": "4448.70",
+          "hours": "1686.00",
+          "fte": "1"
+        },
+        {
+          "id": "g970-77",
+          "gender": "male",
+          "category": "Operations",
+          "basic": "65093.13",
+          "complementary": "4030.40",
+          "hours": "1357",
+          "fte": "0.8"
+        },
+        {
+          "id": "g970-78",
+          "gender": "other",
+          "category": "Support",
+          "basic": "66868.40",
+          "complementary": "7673.89",
+          "hours": "1697.00",
+          "fte": "1"
+        },
+        {
+          "id": "g970-79",
+          "gender": "female",
+          "category": "Sales",
+          "basic": "52155.64",
+          "complementary": "0",
+          "hours": "840.00",
+          "fte": "0.5"
+        }
+      ],
+      "expected": {
+        "workersIncluded": {
+          "female": 39,
+          "male": 36,
+          "otherInBands": 5
+        },
+        "proportionReceivingComplementary": {
+          "female": {
+            "workers": 39,
+            "proportion": {
+              "status": "ok",
+              "value": "53.85"
+            }
+          },
+          "male": {
+            "workers": 36,
+            "proportion": {
+              "status": "ok",
+              "value": "52.78"
+            }
+          }
+        },
+        "bases": [
+          {
+            "basis": "annual",
+            "genderPayGap": {
+              "female": {
+                "workers": 39,
+                "average": {
+                  "status": "ok",
+                  "value": "65229.28"
+                }
+              },
+              "male": {
+                "workers": 36,
+                "average": {
+                  "status": "ok",
+                  "value": "69281.28"
+                }
+              },
+              "gap": {
+                "status": "ok",
+                "value": "5.85"
+              }
+            },
+            "complementaryPayGap": {
+              "female": {
+                "workers": 21,
+                "average": {
+                  "status": "ok",
+                  "value": "4290.30"
+                }
+              },
+              "male": {
+                "workers": 19,
+                "average": {
+                  "status": "ok",
+                  "value": "5930.93"
+                }
+              },
+              "gap": {
+                "status": "ok",
+                "value": "27.66"
+              }
+            },
+            "medianGenderPayGap": {
+              "female": {
+                "workers": 39,
+                "median": {
+                  "status": "ok",
+                  "value": "60967.11"
+                }
+              },
+              "male": {
+                "workers": 36,
+                "median": {
+                  "status": "ok",
+                  "value": "61679.71"
+                }
+              },
+              "gap": {
+                "status": "ok",
+                "value": "1.16"
+              }
+            },
+            "medianComplementaryPayGap": {
+              "female": {
+                "workers": 21,
+                "median": {
+                  "status": "ok",
+                  "value": "3230.84"
+                }
+              },
+              "male": {
+                "workers": 19,
+                "median": {
+                  "status": "ok",
+                  "value": "5038.00"
+                }
+              },
+              "gap": {
+                "status": "ok",
+                "value": "35.87"
+              }
+            },
+            "quartilePayBands": [
+              {
+                "band": 1,
+                "workers": "20.00",
+                "female": {
+                  "status": "ok",
+                  "value": "35.00"
+                },
+                "male": {
+                  "status": "ok",
+                  "value": "60.00"
+                }
+              },
+              {
+                "band": 2,
+                "workers": "20.00",
+                "female": {
+                  "status": "ok",
+                  "value": "65.00"
+                },
+                "male": {
+                  "status": "ok",
+                  "value": "30.00"
+                }
+              },
+              {
+                "band": 3,
+                "workers": "20.00",
+                "female": {
+                  "status": "ok",
+                  "value": "65.00"
+                },
+                "male": {
+                  "status": "ok",
+                  "value": "30.00"
+                }
+              },
+              {
+                "band": 4,
+                "workers": "20.00",
+                "female": {
+                  "status": "ok",
+                  "value": "30.00"
+                },
+                "male": {
+                  "status": "ok",
+                  "value": "60.00"
+                }
+              }
+            ],
+            "categories": [
+              {
+                "category": "Engineering",
+                "female": {
+                  "workers": 9,
+                  "basicAverage": {
+                    "status": "ok",
+                    "value": "44796.35"
+                  },
+                  "complementaryAverage": {
+                    "status": "ok",
+                    "value": "3156.94"
+                  },
+                  "totalAverage": {
+                    "status": "ok",
+                    "value": "46550.20"
+                  }
+                },
+                "male": {
+                  "workers": 8,
+                  "basicAverage": {
+                    "status": "suppressed",
+                    "reason": "few-recipients"
+                  },
+                  "complementaryAverage": {
+                    "status": "suppressed",
+                    "reason": "below-minimum-group-size"
+                  },
+                  "totalAverage": {
+                    "status": "ok",
+                    "value": "72038.42"
+                  }
+                },
+                "basicPayGap": {
+                  "status": "suppressed",
+                  "reason": "few-recipients"
+                },
+                "complementaryPayGap": {
+                  "status": "suppressed",
+                  "reason": "below-minimum-group-size"
+                },
+                "totalPayGap": {
+                  "status": "ok",
+                  "value": "35.38"
+                },
+                "jointAssessmentThreshold": "met"
+              },
+              {
+                "category": "Operations",
+                "female": {
+                  "workers": 11,
+                  "basicAverage": {
+                    "status": "ok",
+                    "value": "71679.74"
+                  },
+                  "complementaryAverage": {
+                    "status": "ok",
+                    "value": "3226.65"
+                  },
+                  "totalAverage": {
+                    "status": "ok",
+                    "value": "73439.73"
+                  }
+                },
+                "male": {
+                  "workers": 5,
+                  "basicAverage": {
+                    "status": "ok",
+                    "value": "47766.79"
+                  },
+                  "complementaryAverage": {
+                    "status": "ok",
+                    "value": "3603.96"
+                  },
+                  "totalAverage": {
+                    "status": "ok",
+                    "value": "51370.75"
+                  }
+                },
+                "basicPayGap": {
+                  "status": "ok",
+                  "value": "-50.06"
+                },
+                "complementaryPayGap": {
+                  "status": "ok",
+                  "value": "10.47"
+                },
+                "totalPayGap": {
+                  "status": "ok",
+                  "value": "-42.96"
+                },
+                "jointAssessmentThreshold": "met"
+              },
+              {
+                "category": "Sales",
+                "female": {
+                  "workers": 10,
+                  "basicAverage": {
+                    "status": "ok",
+                    "value": "69150.84"
+                  },
+                  "complementaryAverage": {
+                    "status": "ok",
+                    "value": "4620.03"
+                  },
+                  "totalAverage": {
+                    "status": "ok",
+                    "value": "71460.86"
+                  }
+                },
+                "male": {
+                  "workers": 15,
+                  "basicAverage": {
+                    "status": "ok",
+                    "value": "67663.91"
+                  },
+                  "complementaryAverage": {
+                    "status": "ok",
+                    "value": "8625.91"
+                  },
+                  "totalAverage": {
+                    "status": "ok",
+                    "value": "72264.39"
+                  }
+                },
+                "basicPayGap": {
+                  "status": "ok",
+                  "value": "-2.20"
+                },
+                "complementaryPayGap": {
+                  "status": "ok",
+                  "value": "46.44"
+                },
+                "totalPayGap": {
+                  "status": "ok",
+                  "value": "1.11"
+                },
+                "jointAssessmentThreshold": "not-met"
+              },
+              {
+                "category": "Support",
+                "female": {
+                  "workers": 9,
+                  "basicAverage": {
+                    "status": "ok",
+                    "value": "63410.33"
+                  },
+                  "complementaryAverage": {
+                    "status": "ok",
+                    "value": "6370.32"
+                  },
+                  "totalAverage": {
+                    "status": "ok",
+                    "value": "66949.40"
+                  }
+                },
+                "male": {
+                  "workers": 8,
+                  "basicAverage": {
+                    "status": "suppressed",
+                    "reason": "few-recipients"
+                  },
+                  "complementaryAverage": {
+                    "status": "suppressed",
+                    "reason": "below-minimum-group-size"
+                  },
+                  "totalAverage": {
+                    "status": "ok",
+                    "value": "72124.87"
+                  }
+                },
+                "basicPayGap": {
+                  "status": "suppressed",
+                  "reason": "few-recipients"
+                },
+                "complementaryPayGap": {
+                  "status": "suppressed",
+                  "reason": "below-minimum-group-size"
+                },
+                "totalPayGap": {
+                  "status": "ok",
+                  "value": "7.18"
+                },
+                "jointAssessmentThreshold": "met"
+              }
+            ]
+          },
+          {
+            "basis": "hourly",
+            "genderPayGap": {
+              "female": {
+                "workers": 39,
+                "average": {
+                  "status": "ok",
+                  "value": "38.52"
+                }
+              },
+              "male": {
+                "workers": 36,
+                "average": {
+                  "status": "ok",
+                  "value": "40.84"
+                }
+              },
+              "gap": {
+                "status": "ok",
+                "value": "5.69"
+              }
+            },
+            "complementaryPayGap": {
+              "female": {
+                "workers": 21,
+                "average": {
+                  "status": "ok",
+                  "value": "2.53"
+                }
+              },
+              "male": {
+                "workers": 19,
+                "average": {
+                  "status": "ok",
+                  "value": "3.49"
+                }
+              },
+              "gap": {
+                "status": "ok",
+                "value": "27.56"
+              }
+            },
+            "medianGenderPayGap": {
+              "female": {
+                "workers": 39,
+                "median": {
+                  "status": "ok",
+                  "value": "35.51"
+                }
+              },
+              "male": {
+                "workers": 36,
+                "median": {
+                  "status": "ok",
+                  "value": "36.49"
+                }
+              },
+              "gap": {
+                "status": "ok",
+                "value": "2.70"
+              }
+            },
+            "medianComplementaryPayGap": {
+              "female": {
+                "workers": 21,
+                "median": {
+                  "status": "ok",
+                  "value": "1.88"
+                }
+              },
+              "male": {
+                "workers": 19,
+                "median": {
+                  "status": "ok",
+                  "value": "2.97"
+                }
+              },
+              "gap": {
+                "status": "ok",
+                "value": "36.72"
+              }
+            },
+            "quartilePayBands": [
+              {
+                "band": 1,
+                "workers": "20.00",
+                "female": {
+                  "status": "ok",
+                  "value": "35.00"
+                },
+                "male": {
+                  "status": "ok",
+                  "value": "60.00"
+                }
+              },
+              {
+                "band": 2,
+                "workers": "20.00",
+                "female": {
+                  "status": "ok",
+                  "value": "70.00"
+                },
+                "male": {
+                  "status": "ok",
+                  "value": "25.00"
+                }
+              },
+              {
+                "band": 3,
+                "workers": "20.00",
+                "female": {
+                  "status": "ok",
+                  "value": "60.00"
+                },
+                "male": {
+                  "status": "ok",
+                  "value": "35.00"
+                }
+              },
+              {
+                "band": 4,
+                "workers": "20.00",
+                "female": {
+                  "status": "ok",
+                  "value": "30.00"
+                },
+                "male": {
+                  "status": "ok",
+                  "value": "60.00"
+                }
+              }
+            ],
+            "categories": [
+              {
+                "category": "Engineering",
+                "female": {
+                  "workers": 9,
+                  "basicAverage": {
+                    "status": "ok",
+                    "value": "26.30"
+                  },
+                  "complementaryAverage": {
+                    "status": "ok",
+                    "value": "1.85"
+                  },
+                  "totalAverage": {
+                    "status": "ok",
+                    "value": "27.33"
+                  }
+                },
+                "male": {
+                  "workers": 8,
+                  "basicAverage": {
+                    "status": "suppressed",
+                    "reason": "few-recipients"
+                  },
+                  "complementaryAverage": {
+                    "status": "suppressed",
+                    "reason": "below-minimum-group-size"
+                  },
+                  "totalAverage": {
+                    "status": "ok",
+                    "value": "42.74"
+                  }
+                },
+                "basicPayGap": {
+                  "status": "suppressed",
+                  "reason": "few-recipients"
+                },
+                "complementaryPayGap": {
+                  "status": "suppressed",
+                  "reason": "below-minimum-group-size"
+                },
+                "totalPayGap": {
+                  "status": "ok",
+                  "value": "36.06"
+                },
+                "jointAssessmentThreshold": "met"
+              },
+              {
+                "category": "Operations",
+                "female": {
+                  "workers": 11,
+                  "basicAverage": {
+                    "status": "ok",
+                    "value": "42.12"
+                  },
+                  "complementaryAverage": {
+                    "status": "ok",
+                    "value": "1.90"
+                  },
+                  "totalAverage": {
+                    "status": "ok",
+                    "value": "43.16"
+                  }
+                },
+                "male": {
+                  "workers": 5,
+                  "basicAverage": {
+                    "status": "ok",
+                    "value": "28.18"
+                  },
+                  "complementaryAverage": {
+                    "status": "ok",
+                    "value": "2.13"
+                  },
+                  "totalAverage": {
+                    "status": "ok",
+                    "value": "30.30"
+                  }
+                },
+                "basicPayGap": {
+                  "status": "ok",
+                  "value": "-49.50"
+                },
+                "complementaryPayGap": {
+                  "status": "ok",
+                  "value": "10.54"
+                },
+                "totalPayGap": {
+                  "status": "ok",
+                  "value": "-42.44"
+                },
+                "jointAssessmentThreshold": "met"
+              },
+              {
+                "category": "Sales",
+                "female": {
+                  "workers": 10,
+                  "basicAverage": {
+                    "status": "ok",
+                    "value": "41.00"
+                  },
+                  "complementaryAverage": {
+                    "status": "ok",
+                    "value": "2.75"
+                  },
+                  "totalAverage": {
+                    "status": "ok",
+                    "value": "42.37"
+                  }
+                },
+                "male": {
+                  "workers": 15,
+                  "basicAverage": {
+                    "status": "ok",
+                    "value": "39.75"
+                  },
+                  "complementaryAverage": {
+                    "status": "ok",
+                    "value": "5.05"
+                  },
+                  "totalAverage": {
+                    "status": "ok",
+                    "value": "42.45"
+                  }
+                },
+                "basicPayGap": {
+                  "status": "ok",
+                  "value": "-3.14"
+                },
+                "complementaryPayGap": {
+                  "status": "ok",
+                  "value": "45.60"
+                },
+                "totalPayGap": {
+                  "status": "ok",
+                  "value": "0.17"
+                },
+                "jointAssessmentThreshold": "not-met"
+              },
+              {
+                "category": "Support",
+                "female": {
+                  "workers": 9,
+                  "basicAverage": {
+                    "status": "ok",
+                    "value": "37.67"
+                  },
+                  "complementaryAverage": {
+                    "status": "ok",
+                    "value": "3.74"
+                  },
+                  "totalAverage": {
+                    "status": "ok",
+                    "value": "39.75"
+                  }
+                },
+                "male": {
+                  "workers": 8,
+                  "basicAverage": {
+                    "status": "suppressed",
+                    "reason": "few-recipients"
+                  },
+                  "complementaryAverage": {
+                    "status": "suppressed",
+                    "reason": "below-minimum-group-size"
+                  },
+                  "totalAverage": {
+                    "status": "ok",
+                    "value": "42.52"
+                  }
+                },
+                "basicPayGap": {
+                  "status": "suppressed",
+                  "reason": "few-recipients"
+                },
+                "complementaryPayGap": {
+                  "status": "suppressed",
+                  "reason": "below-minimum-group-size"
+                },
+                "totalPayGap": {
+                  "status": "ok",
+                  "value": "6.51"
+                },
+                "jointAssessmentThreshold": "met"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "generated-50-ties-whole-workers",
+      "origin": "generated-by-typescript",
+      "settings": {
+        "payBases": [
+          "annual"
+        ],
+        "annualPay": "actual",
+        "complementaryGapPopulation": "all-workers",
+        "quartileMethod": "whole-workers-ties-together",
+        "minimumGroupSize": 3,
+        "otherGender": "exclude",
+        "decimals": 2,
+        "suppressSmallGroups": true
+      },
+      "workers": [
+        {
+          "id": "g2023-0",
+          "gender": "female",
+          "category": "B",
+          "basic": "63000",
+          "complementary": "0",
+          "hours": "847",
+          "fte": "0.5"
+        },
+        {
+          "id": "g2023-1",
+          "gender": "male",
+          "category": "C",
+          "basic": "35000",
+          "complementary": "7000",
+          "hours": "1708",
+          "fte": "1"
+        },
+        {
+          "id": "g2023-2",
+          "gender": "male",
+          "category": "B",
+          "basic": "43000",
+          "complementary": "3000",
+          "hours": "1346.00",
+          "fte": "0.8"
+        },
+        {
+          "id": "g2023-3",
+          "gender": "male",
+          "category": "A",
+          "basic": "72000",
+          "complementary": "7000",
+          "hours": "833",
+          "fte": "0.5"
+        },
+        {
+          "id": "g2023-4",
+          "gender": "female",
+          "category": "C",
+          "basic": "60000",
+          "complementary": "0",
+          "hours": "996.00",
+          "fte": "0.6"
+        },
+        {
+          "id": "g2023-5",
+          "gender": "male",
+          "category": "B",
+          "basic": "40000",
+          "complementary": "0",
+          "hours": "1710",
+          "fte": "1"
+        },
+        {
+          "id": "g2023-6",
+          "gender": "female",
+          "category": "B",
+          "basic": "67000",
+          "complementary": "6000",
+          "hours": "1719.00",
+          "fte": "1"
+        },
+        {
+          "id": "g2023-7",
+          "gender": "female",
+          "category": "A",
+          "basic": "69000",
+          "complementary": "0",
+          "hours": "1014",
+          "fte": "0.6"
+        },
+        {
+          "id": "g2023-8",
+          "gender": "male",
+          "category": "C",
+          "basic": "51000",
+          "complementary": "0",
+          "hours": "1706.00",
+          "fte": "1"
+        },
+        {
+          "id": "g2023-9",
+          "gender": "male",
+          "category": "B",
+          "basic": "42000",
+          "complementary": "0",
+          "hours": "1687",
+          "fte": "1"
+        },
+        {
+          "id": "g2023-10",
+          "gender": "female",
+          "category": "A",
+          "basic": "60000",
+          "complementary": "0",
+          "hours": "833",
+          "fte": "0.5"
+        },
+        {
+          "id": "g2023-11",
+          "gender": "male",
+          "category": "B",
+          "basic": "52000",
+          "complementary": "0",
+          "hours": "1696",
+          "fte": "1"
+        },
+        {
+          "id": "g2023-12",
+          "gender": "male",
+          "category": "C",
+          "basic": "48000",
+          "complementary": "3000",
+          "hours": "1014",
+          "fte": "0.6"
+        },
+        {
+          "id": "g2023-13",
+          "gender": "male",
+          "category": "C",
+          "basic": "55000",
+          "complementary": "5000",
+          "hours": "1700.00",
+          "fte": "1"
+        },
+        {
+          "id": "g2023-14",
+          "gender": "male",
+          "category": "A",
+          "basic": "32000",
+          "complementary": "3000",
+          "hours": "1719",
+          "fte": "1"
+        },
+        {
+          "id": "g2023-15",
+          "gender": "female",
+          "category": "C",
+          "basic": "55000",
+          "complementary": "2000",
+          "hours": "842.00",
+          "fte": "0.5"
+        },
+        {
+          "id": "g2023-16",
+          "gender": "male",
+          "category": "B",
+          "basic": "34000",
+          "complementary": "0",
+          "hours": "829.00",
+          "fte": "0.5"
+        },
+        {
+          "id": "g2023-17",
+          "gender": "female",
+          "category": "A",
+          "basic": "28000",
+          "complementary": "5000",
+          "hours": "841",
+          "fte": "0.5"
+        },
+        {
+          "id": "g2023-18",
+          "gender": "female",
+          "category": "C",
+          "basic": "37000",
+          "complementary": "4000",
+          "hours": "1700.00",
+          "fte": "1"
+        },
+        {
+          "id": "g2023-19",
+          "gender": "male",
+          "category": "A",
+          "basic": "55000",
+          "complementary": "7000",
+          "hours": "1373",
+          "fte": "0.8"
+        },
+        {
+          "id": "g2023-20",
+          "gender": "male",
+          "category": "B",
+          "basic": "55000",
+          "complementary": "0",
+          "hours": "1720",
+          "fte": "1"
+        },
+        {
+          "id": "g2023-21",
+          "gender": "female",
+          "category": "C",
+          "basic": "52000",
+          "complementary": "0",
+          "hours": "1690",
+          "fte": "1"
+        },
+        {
+          "id": "g2023-22",
+          "gender": "female",
+          "category": "A",
+          "basic": "24000",
+          "complementary": "8000",
+          "hours": "1367.00",
+          "fte": "0.8"
+        },
+        {
+          "id": "g2023-23",
+          "gender": "female",
+          "category": "A",
+          "basic": "60000",
+          "complementary": "7000",
+          "hours": "831.00",
+          "fte": "0.5"
+        },
+        {
+          "id": "g2023-24",
+          "gender": "male",
+          "category": "B",
+          "basic": "40000",
+          "complementary": "0",
+          "hours": "852",
+          "fte": "0.5"
+        },
+        {
+          "id": "g2023-25",
+          "gender": "male",
+          "category": "A",
+          "basic": "57000",
+          "complementary": "0",
+          "hours": "1705",
+          "fte": "1"
+        },
+        {
+          "id": "g2023-26",
+          "gender": "male",
+          "category": "B",
+          "basic": "33000",
+          "complementary": "0",
+          "hours": "1365.00",
+          "fte": "0.8"
+        },
+        {
+          "id": "g2023-27",
+          "gender": "female",
+          "category": "A",
+          "basic": "36000",
+          "complementary": "6000",
+          "hours": "1705.00",
+          "fte": "1"
+        },
+        {
+          "id": "g2023-28",
+          "gender": "male",
+          "category": "A",
+          "basic": "63000",
+          "complementary": "7000",
+          "hours": "1693",
+          "fte": "1"
+        },
+        {
+          "id": "g2023-29",
+          "gender": "female",
+          "category": "C",
+          "basic": "28000",
+          "complementary": "0",
+          "hours": "840",
+          "fte": "0.5"
+        },
+        {
+          "id": "g2023-30",
+          "gender": "female",
+          "category": "B",
+          "basic": "45000",
+          "complementary": "2000",
+          "hours": "1001",
+          "fte": "0.6"
+        },
+        {
+          "id": "g2023-31",
+          "gender": "male",
+          "category": "A",
+          "basic": "42000",
+          "complementary": "4000",
+          "hours": "1706",
+          "fte": "1"
+        },
+        {
+          "id": "g2023-32",
+          "gender": "male",
+          "category": "A",
+          "basic": "31000",
+          "complementary": "0",
+          "hours": "1687.00",
+          "fte": "1"
+        },
+        {
+          "id": "g2023-33",
+          "gender": "female",
+          "category": "A",
+          "basic": "40000",
+          "complementary": "1000",
+          "hours": "858",
+          "fte": "0.5"
+        },
+        {
+          "id": "g2023-34",
+          "gender": "female",
+          "category": "B",
+          "basic": "69000",
+          "complementary": "0",
+          "hours": "1711",
+          "fte": "1"
+        },
+        {
+          "id": "g2023-35",
+          "gender": "male",
+          "category": "A",
+          "basic": "69000",
+          "complementary": "7000",
+          "hours": "1702",
+          "fte": "1"
+        },
+        {
+          "id": "g2023-36",
+          "gender": "male",
+          "category": "A",
+          "basic": "43000",
+          "complementary": "4000",
+          "hours": "1706.00",
+          "fte": "1"
+        },
+        {
+          "id": "g2023-37",
+          "gender": "female",
+          "category": "B",
+          "basic": "43000",
+          "complementary": "0",
+          "hours": "1026.00",
+          "fte": "0.6"
+        },
+        {
+          "id": "g2023-38",
+          "gender": "female",
+          "category": "A",
+          "basic": "45000",
+          "complementary": "0",
+          "hours": "1696",
+          "fte": "1"
+        },
+        {
+          "id": "g2023-39",
+          "gender": "male",
+          "category": "A",
+          "basic": "27000",
+          "complementary": "1000",
+          "hours": "1706.00",
+          "fte": "1"
+        },
+        {
+          "id": "g2023-40",
+          "gender": "female",
+          "category": "C",
+          "basic": "25000",
+          "complementary": "4000",
+          "hours": "1683",
+          "fte": "1"
+        },
+        {
+          "id": "g2023-41",
+          "gender": "male",
+          "category": "A",
+          "basic": "67000",
+          "complementary": "3000",
+          "hours": "1702.00",
+          "fte": "1"
+        },
+        {
+          "id": "g2023-42",
+          "gender": "male",
+          "category": "C",
+          "basic": "36000",
+          "complementary": "0",
+          "hours": "1360.00",
+          "fte": "0.8"
+        },
+        {
+          "id": "g2023-43",
+          "gender": "male",
+          "category": "B",
+          "basic": "57000",
+          "complementary": "4000",
+          "hours": "1684.00",
+          "fte": "1"
+        },
+        {
+          "id": "g2023-44",
+          "gender": "male",
+          "category": "B",
+          "basic": "56000",
+          "complementary": "0",
+          "hours": "1687",
+          "fte": "1"
+        },
+        {
+          "id": "g2023-45",
+          "gender": "female",
+          "category": "A",
+          "basic": "65000",
+          "complementary": "0",
+          "hours": "1702.00",
+          "fte": "1"
+        },
+        {
+          "id": "g2023-46",
+          "gender": "male",
+          "category": "A",
+          "basic": "62000",
+          "complementary": "0",
+          "hours": "1700.00",
+          "fte": "1"
+        },
+        {
+          "id": "g2023-47",
+          "gender": "male",
+          "category": "B",
+          "basic": "46000",
+          "complementary": "4000",
+          "hours": "1374.00",
+          "fte": "0.8"
+        },
+        {
+          "id": "g2023-48",
+          "gender": "male",
+          "category": "B",
+          "basic": "64000",
+          "complementary": "0",
+          "hours": "1709",
+          "fte": "1"
+        },
+        {
+          "id": "g2023-49",
+          "gender": "female",
+          "category": "B",
+          "basic": "25000",
+          "complementary": "7000",
+          "hours": "1359",
+          "fte": "0.8"
+        }
+      ],
+      "expected": {
+        "workersIncluded": {
+          "female": 21,
+          "male": 29,
+          "otherInBands": 0
+        },
+        "proportionReceivingComplementary": {
+          "female": {
+            "workers": 21,
+            "proportion": {
+              "status": "ok",
+              "value": "52.38"
+            }
+          },
+          "male": {
+            "workers": 29,
+            "proportion": {
+              "status": "ok",
+              "value": "51.72"
+            }
+          }
+        },
+        "bases": [
+          {
+            "basis": "annual",
+            "genderPayGap": {
+              "female": {
+                "workers": 21,
+                "average": {
+                  "status": "ok",
+                  "value": "49904.76"
+                }
+              },
+              "male": {
+                "workers": 29,
+                "average": {
+                  "status": "ok",
+                  "value": "50896.55"
+                }
+              },
+              "gap": {
+                "status": "ok",
+                "value": "1.95"
+              }
+            },
+            "complementaryPayGap": {
+              "female": {
+                "workers": 21,
+                "average": {
+                  "status": "ok",
+                  "value": "2476.19"
+                }
+              },
+              "male": {
+                "workers": 29,
+                "average": {
+                  "status": "ok",
+                  "value": "2379.31"
+                }
+              },
+              "gap": {
+                "status": "ok",
+                "value": "-4.07"
+              }
+            },
+            "medianGenderPayGap": {
+              "female": {
+                "workers": 21,
+                "median": {
+                  "status": "ok",
+                  "value": "47000.00"
+                }
+              },
+              "male": {
+                "workers": 29,
+                "median": {
+                  "status": "ok",
+                  "value": "51000.00"
+                }
+              },
+              "gap": {
+                "status": "ok",
+                "value": "7.84"
+              }
+            },
+            "medianComplementaryPayGap": {
+              "female": {
+                "workers": 21,
+                "median": {
+                  "status": "ok",
+                  "value": "1000.00"
+                }
+              },
+              "male": {
+                "workers": 29,
+                "median": {
+                  "status": "ok",
+                  "value": "1000.00"
+                }
+              },
+              "gap": {
+                "status": "ok",
+                "value": "0.00"
+              }
+            },
+            "quartilePayBands": [
+              {
+                "band": 1,
+                "workers": "13.00",
+                "female": {
+                  "status": "ok",
+                  "value": "38.46"
+                },
+                "male": {
+                  "status": "ok",
+                  "value": "61.54"
+                }
+              },
+              {
+                "band": 2,
+                "workers": "12.00",
+                "female": {
+                  "status": "ok",
+                  "value": "50.00"
+                },
+                "male": {
+                  "status": "ok",
+                  "value": "50.00"
+                }
+              },
+              {
+                "band": 3,
+                "workers": "12.00",
+                "female": {
+                  "status": "ok",
+                  "value": "33.33"
+                },
+                "male": {
+                  "status": "ok",
+                  "value": "66.67"
+                }
+              },
+              {
+                "band": 4,
+                "workers": "13.00",
+                "female": {
+                  "status": "ok",
+                  "value": "46.15"
+                },
+                "male": {
+                  "status": "ok",
+                  "value": "53.85"
+                }
+              }
+            ],
+            "categories": [
+              {
+                "category": "A",
+                "female": {
+                  "workers": 9,
+                  "basicAverage": {
+                    "status": "ok",
+                    "value": "47444.44"
+                  },
+                  "complementaryAverage": {
+                    "status": "ok",
+                    "value": "3000.00"
+                  },
+                  "totalAverage": {
+                    "status": "ok",
+                    "value": "50444.44"
+                  }
+                },
+                "male": {
+                  "workers": 12,
+                  "basicAverage": {
+                    "status": "ok",
+                    "value": "51666.67"
+                  },
+                  "complementaryAverage": {
+                    "status": "ok",
+                    "value": "3583.33"
+                  },
+                  "totalAverage": {
+                    "status": "ok",
+                    "value": "55250.00"
+                  }
+                },
+                "basicPayGap": {
+                  "status": "ok",
+                  "value": "8.17"
+                },
+                "complementaryPayGap": {
+                  "status": "ok",
+                  "value": "16.28"
+                },
+                "totalPayGap": {
+                  "status": "ok",
+                  "value": "8.70"
+                },
+                "jointAssessmentThreshold": "met"
+              },
+              {
+                "category": "B",
+                "female": {
+                  "workers": 6,
+                  "basicAverage": {
+                    "status": "ok",
+                    "value": "52000.00"
+                  },
+                  "complementaryAverage": {
+                    "status": "ok",
+                    "value": "2500.00"
+                  },
+                  "totalAverage": {
+                    "status": "ok",
+                    "value": "54500.00"
+                  }
+                },
+                "male": {
+                  "workers": 12,
+                  "basicAverage": {
+                    "status": "ok",
+                    "value": "46833.33"
+                  },
+                  "complementaryAverage": {
+                    "status": "ok",
+                    "value": "916.67"
+                  },
+                  "totalAverage": {
+                    "status": "ok",
+                    "value": "47750.00"
+                  }
+                },
+                "basicPayGap": {
+                  "status": "ok",
+                  "value": "-11.03"
+                },
+                "complementaryPayGap": {
+                  "status": "ok",
+                  "value": "-172.73"
+                },
+                "totalPayGap": {
+                  "status": "ok",
+                  "value": "-14.14"
+                },
+                "jointAssessmentThreshold": "met"
+              },
+              {
+                "category": "C",
+                "female": {
+                  "workers": 6,
+                  "basicAverage": {
+                    "status": "ok",
+                    "value": "42833.33"
+                  },
+                  "complementaryAverage": {
+                    "status": "ok",
+                    "value": "1666.67"
+                  },
+                  "totalAverage": {
+                    "status": "ok",
+                    "value": "44500.00"
+                  }
+                },
+                "male": {
+                  "workers": 5,
+                  "basicAverage": {
+                    "status": "ok",
+                    "value": "45000.00"
+                  },
+                  "complementaryAverage": {
+                    "status": "ok",
+                    "value": "3000.00"
+                  },
+                  "totalAverage": {
+                    "status": "ok",
+                    "value": "48000.00"
+                  }
+                },
+                "basicPayGap": {
+                  "status": "ok",
+                  "value": "4.81"
+                },
+                "complementaryPayGap": {
+                  "status": "ok",
+                  "value": "44.44"
+                },
+                "totalPayGap": {
+                  "status": "ok",
+                  "value": "7.29"
+                },
+                "jointAssessmentThreshold": "met"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "generated-33-hourly-three-decimals-unsuppressed",
+      "origin": "generated-by-typescript",
+      "settings": {
+        "payBases": [
+          "hourly"
+        ],
+        "complementaryGapPopulation": "all-workers",
+        "quartileMethod": "exact-equal-groups",
+        "minimumGroupSize": 5,
+        "otherGender": "exclude",
+        "decimals": 3,
+        "suppressSmallGroups": false
+      },
+      "workers": [
+        {
+          "id": "g34-0",
+          "gender": "male",
+          "category": null,
+          "basic": "31078.49",
+          "complementary": "1315.48",
+          "hours": "843.00",
+          "fte": "0.5"
+        },
+        {
+          "id": "g34-1",
+          "gender": "female",
+          "category": null,
+          "basic": "69198.26",
+          "complementary": "256.62",
+          "hours": "1720.00",
+          "fte": "1"
+        },
+        {
+          "id": "g34-2",
+          "gender": "male",
+          "category": null,
+          "basic": "37009.01",
+          "complementary": "2161.36",
+          "hours": "1683",
+          "fte": "1"
+        },
+        {
+          "id": "g34-3",
+          "gender": "female",
+          "category": null,
+          "basic": "35550.12",
+          "complementary": "3339.78",
+          "hours": "822.00",
+          "fte": "0.5"
+        },
+        {
+          "id": "g34-4",
+          "gender": "female",
+          "category": null,
+          "basic": "50558.38",
+          "complementary": "6669.73",
+          "hours": "844.00",
+          "fte": "0.5"
+        },
+        {
+          "id": "g34-5",
+          "gender": "male",
+          "category": null,
+          "basic": "67472.02",
+          "complementary": "6279.86",
+          "hours": "1689.00",
+          "fte": "1"
+        },
+        {
+          "id": "g34-6",
+          "gender": "female",
+          "category": null,
+          "basic": "44295.93",
+          "complementary": "888.61",
+          "hours": "856.00",
+          "fte": "0.5"
+        },
+        {
+          "id": "g34-7",
+          "gender": "female",
+          "category": null,
+          "basic": "34292.02",
+          "complementary": "3420.12",
+          "hours": "1686.00",
+          "fte": "1"
+        },
+        {
+          "id": "g34-8",
+          "gender": "male",
+          "category": null,
+          "basic": "52318.61",
+          "complementary": "0",
+          "hours": "1704.00",
+          "fte": "1"
+        },
+        {
+          "id": "g34-9",
+          "gender": "female",
+          "category": null,
+          "basic": "59963.56",
+          "complementary": "5304.77",
+          "hours": "1707",
+          "fte": "1"
+        },
+        {
+          "id": "g34-10",
+          "gender": "other",
+          "category": null,
+          "basic": "34257.15",
+          "complementary": "0",
+          "hours": "1688.00",
+          "fte": "1"
+        },
+        {
+          "id": "g34-11",
+          "gender": "male",
+          "category": null,
+          "basic": "42827.95",
+          "complementary": "0",
+          "hours": "1007",
+          "fte": "0.6"
+        },
+        {
+          "id": "g34-12",
+          "gender": "male",
+          "category": null,
+          "basic": "62134.95",
+          "complementary": "0",
+          "hours": "1689.00",
+          "fte": "1"
+        },
+        {
+          "id": "g34-13",
+          "gender": "female",
+          "category": null,
+          "basic": "57513.88",
+          "complementary": "0",
+          "hours": "1026.00",
+          "fte": "0.6"
+        },
+        {
+          "id": "g34-14",
+          "gender": "male",
+          "category": null,
+          "basic": "31894.39",
+          "complementary": "2792.52",
+          "hours": "1014.00",
+          "fte": "0.6"
+        },
+        {
+          "id": "g34-15",
+          "gender": "female",
+          "category": null,
+          "basic": "39858.70",
+          "complementary": "0",
+          "hours": "859.00",
+          "fte": "0.5"
+        },
+        {
+          "id": "g34-16",
+          "gender": "female",
+          "category": null,
+          "basic": "58132.03",
+          "complementary": "8781.06",
+          "hours": "999.00",
+          "fte": "0.6"
+        },
+        {
+          "id": "g34-17",
+          "gender": "male",
+          "category": null,
+          "basic": "31103.42",
+          "complementary": "0",
+          "hours": "1712",
+          "fte": "1"
+        },
+        {
+          "id": "g34-18",
+          "gender": "male",
+          "category": null,
+          "basic": "58881.72",
+          "complementary": "2205.94",
+          "hours": "1714.00",
+          "fte": "1"
+        },
+        {
+          "id": "g34-19",
+          "gender": "female",
+          "category": null,
+          "basic": "42376.66",
+          "complementary": "4276.23",
+          "hours": "1684",
+          "fte": "1"
+        },
+        {
+          "id": "g34-20",
+          "gender": "female",
+          "category": null,
+          "basic": "63416.27",
+          "complementary": "0",
+          "hours": "1701",
+          "fte": "1"
+        },
+        {
+          "id": "g34-21",
+          "gender": "male",
+          "category": null,
+          "basic": "46053.72",
+          "complementary": "405.47",
+          "hours": "1718.00",
+          "fte": "1"
+        },
+        {
+          "id": "g34-22",
+          "gender": "female",
+          "category": null,
+          "basic": "69865.38",
+          "complementary": "0",
+          "hours": "1704.00",
+          "fte": "1"
+        },
+        {
+          "id": "g34-23",
+          "gender": "female",
+          "category": null,
+          "basic": "32445.92",
+          "complementary": "6643.10",
+          "hours": "839.00",
+          "fte": "0.5"
+        },
+        {
+          "id": "g34-24",
+          "gender": "male",
+          "category": null,
+          "basic": "34358.31",
+          "complementary": "0",
+          "hours": "1360.00",
+          "fte": "0.8"
+        },
+        {
+          "id": "g34-25",
+          "gender": "female",
+          "category": null,
+          "basic": "28307.71",
+          "complementary": "0",
+          "hours": "828.00",
+          "fte": "0.5"
+        },
+        {
+          "id": "g34-26",
+          "gender": "male",
+          "category": null,
+          "basic": "27996.33",
+          "complementary": "5127.70",
+          "hours": "1708",
+          "fte": "1"
+        },
+        {
+          "id": "g34-27",
+          "gender": "female",
+          "category": null,
+          "basic": "35217.46",
+          "complementary": "0",
+          "hours": "1032.00",
+          "fte": "0.6"
+        },
+        {
+          "id": "g34-28",
+          "gender": "female",
+          "category": null,
+          "basic": "55342.57",
+          "complementary": "1364.37",
+          "hours": "858",
+          "fte": "0.5"
+        },
+        {
+          "id": "g34-29",
+          "gender": "female",
+          "category": null,
+          "basic": "66558.25",
+          "complementary": "921.78",
+          "hours": "1697",
+          "fte": "1"
+        },
+        {
+          "id": "g34-30",
+          "gender": "female",
+          "category": null,
+          "basic": "42208.17",
+          "complementary": "7222.42",
+          "hours": "1710",
+          "fte": "1"
+        },
+        {
+          "id": "g34-31",
+          "gender": "female",
+          "category": null,
+          "basic": "48660.93",
+          "complementary": "496.78",
+          "hours": "823",
+          "fte": "0.5"
+        },
+        {
+          "id": "g34-32",
+          "gender": "female",
+          "category": null,
+          "basic": "33252.96",
+          "complementary": "2903.58",
+          "hours": "1699",
+          "fte": "1"
+        }
+      ],
+      "expected": {
+        "workersIncluded": {
+          "female": 20,
+          "male": 12,
+          "otherInBands": 0
+        },
+        "proportionReceivingComplementary": {
+          "female": {
+            "workers": 20,
+            "proportion": {
+              "status": "ok",
+              "value": "70.000"
+            }
+          },
+          "male": {
+            "workers": 12,
+            "proportion": {
+              "status": "ok",
+              "value": "58.333"
+            }
+          }
+        },
+        "bases": [
+          {
+            "basis": "hourly",
+            "genderPayGap": {
+              "female": {
+                "workers": 20,
+                "average": {
+                  "status": "ok",
+                  "value": "43.749"
+                }
+              },
+              "male": {
+                "workers": 12,
+                "average": {
+                  "status": "ok",
+                  "value": "31.259"
+                }
+              },
+              "gap": {
+                "status": "ok",
+                "value": "-39.959"
+              }
+            },
+            "complementaryPayGap": {
+              "female": {
+                "workers": 20,
+                "average": {
+                  "status": "ok",
+                  "value": "2.310"
+                }
+              },
+              "male": {
+                "workers": 12,
+                "average": {
+                  "status": "ok",
+                  "value": "1.153"
+                }
+              },
+              "gap": {
+                "status": "ok",
+                "value": "-100.285"
+              }
+            },
+            "medianGenderPayGap": {
+              "female": {
+                "workers": 20,
+                "median": {
+                  "status": "ok",
+                  "value": "40.691"
+                }
+              },
+              "male": {
+                "workers": 12,
+                "median": {
+                  "status": "ok",
+                  "value": "32.456"
+                }
+              },
+              "gap": {
+                "status": "ok",
+                "value": "-25.373"
+              }
+            },
+            "medianComplementaryPayGap": {
+              "female": {
+                "workers": 20,
+                "median": {
+                  "status": "ok",
+                  "value": "1.314"
+                }
+              },
+              "male": {
+                "workers": 12,
+                "median": {
+                  "status": "ok",
+                  "value": "0.760"
+                }
+              },
+              "gap": {
+                "status": "ok",
+                "value": "-72.885"
+              }
+            },
+            "quartilePayBands": [
+              {
+                "band": 1,
+                "workers": "8.000",
+                "female": {
+                  "status": "ok",
+                  "value": "37.500"
+                },
+                "male": {
+                  "status": "ok",
+                  "value": "62.500"
+                }
+              },
+              {
+                "band": 2,
+                "workers": "8.000",
+                "female": {
+                  "status": "ok",
+                  "value": "50.000"
+                },
+                "male": {
+                  "status": "ok",
+                  "value": "50.000"
+                }
+              },
+              {
+                "band": 3,
+                "workers": "8.000",
+                "female": {
+                  "status": "ok",
+                  "value": "62.500"
+                },
+                "male": {
+                  "status": "ok",
+                  "value": "37.500"
+                }
+              },
+              {
+                "band": 4,
+                "workers": "8.000",
+                "female": {
+                  "status": "ok",
+                  "value": "100.000"
+                },
+                "male": {
+                  "status": "ok",
+                  "value": "0.000"
+                }
+              }
+            ],
+            "categories": null
+          }
+        ]
+      }
+    },
+    {
+      "name": "generated-60-small-groups-other-in-totals",
+      "origin": "generated-by-typescript",
+      "settings": {
+        "payBases": [
+          "annual",
+          "hourly"
+        ],
+        "annualPay": "actual",
+        "complementaryGapPopulation": "all-workers",
+        "quartileMethod": "whole-workers-ties-together",
+        "minimumGroupSize": 5,
+        "otherGender": "include-in-totals",
+        "decimals": 2,
+        "suppressSmallGroups": true
+      },
+      "workers": [
+        {
+          "id": "g53-0",
+          "gender": "female",
+          "category": "F",
+          "basic": "26826",
+          "complementary": "0",
+          "hours": "1699",
+          "fte": "1"
+        },
+        {
+          "id": "g53-1",
+          "gender": "male",
+          "category": "D",
+          "basic": "71943",
+          "complementary": "0",
+          "hours": "1003.00",
+          "fte": "0.6"
+        },
+        {
+          "id": "g53-2",
+          "gender": "male",
+          "category": "E",
+          "basic": "32750",
+          "complementary": "0",
+          "hours": "1699",
+          "fte": "1"
+        },
+        {
+          "id": "g53-3",
+          "gender": "male",
+          "category": "F",
+          "basic": "64085",
+          "complementary": "6142",
+          "hours": "1715",
+          "fte": "1"
+        },
+        {
+          "id": "g53-4",
+          "gender": "male",
+          "category": "B",
+          "basic": "32250",
+          "complementary": "0",
+          "hours": "1688.00",
+          "fte": "1"
+        },
+        {
+          "id": "g53-5",
+          "gender": "female",
+          "category": "G",
+          "basic": "67173",
+          "complementary": "1038",
+          "hours": "1710.00",
+          "fte": "1"
+        },
+        {
+          "id": "g53-6",
+          "gender": "female",
+          "category": "F",
+          "basic": "49184",
+          "complementary": "0",
+          "hours": "857.00",
+          "fte": "0.5"
+        },
+        {
+          "id": "g53-7",
+          "gender": "male",
+          "category": "F",
+          "basic": "67318",
+          "complementary": "5838",
+          "hours": "837",
+          "fte": "0.5"
+        },
+        {
+          "id": "g53-8",
+          "gender": "other",
+          "category": "E",
+          "basic": "25382",
+          "complementary": "0",
+          "hours": "1685",
+          "fte": "1"
+        },
+        {
+          "id": "g53-9",
+          "gender": "female",
+          "category": "D",
+          "basic": "55143",
+          "complementary": "2713",
+          "hours": "1701",
+          "fte": "1"
+        },
+        {
+          "id": "g53-10",
+          "gender": "male",
+          "category": "B",
+          "basic": "37269",
+          "complementary": "0",
+          "hours": "1704",
+          "fte": "1"
+        },
+        {
+          "id": "g53-11",
+          "gender": "male",
+          "category": "G",
+          "basic": "49425",
+          "complementary": "7244",
+          "hours": "997",
+          "fte": "0.6"
+        },
+        {
+          "id": "g53-12",
+          "gender": "male",
+          "category": "D",
+          "basic": "61108",
+          "complementary": "560",
+          "hours": "1684",
+          "fte": "1"
+        },
+        {
+          "id": "g53-13",
+          "gender": "female",
+          "category": "C",
+          "basic": "34581",
+          "complementary": "3549",
+          "hours": "1720",
+          "fte": "1"
+        },
+        {
+          "id": "g53-14",
+          "gender": "male",
+          "category": "E",
+          "basic": "55525",
+          "complementary": "2877",
+          "hours": "1355",
+          "fte": "0.8"
+        },
+        {
+          "id": "g53-15",
+          "gender": "female",
+          "category": "C",
+          "basic": "49265",
+          "complementary": "3947",
+          "hours": "1687",
+          "fte": "1"
+        },
+        {
+          "id": "g53-16",
+          "gender": "female",
+          "category": "A",
+          "basic": "32365",
+          "complementary": "0",
+          "hours": "1705",
+          "fte": "1"
+        },
+        {
+          "id": "g53-17",
+          "gender": "female",
+          "category": "E",
+          "basic": "39828",
+          "complementary": "0",
+          "hours": "1686.00",
+          "fte": "1"
+        },
+        {
+          "id": "g53-18",
+          "gender": "male",
+          "category": "A",
+          "basic": "35151",
+          "complementary": "5143",
+          "hours": "1704",
+          "fte": "1"
+        },
+        {
+          "id": "g53-19",
+          "gender": "female",
+          "category": "C",
+          "basic": "39490",
+          "complementary": "526",
+          "hours": "826",
+          "fte": "0.5"
+        },
+        {
+          "id": "g53-20",
+          "gender": "male",
+          "category": "G",
+          "basic": "61764",
+          "complementary": "7008",
+          "hours": "1020",
+          "fte": "0.6"
+        },
+        {
+          "id": "g53-21",
+          "gender": "male",
+          "category": "G",
+          "basic": "41566",
+          "complementary": "133",
+          "hours": "1371.00",
+          "fte": "0.8"
+        },
+        {
+          "id": "g53-22",
+          "gender": "male",
+          "category": "C",
+          "basic": "46221",
+          "complementary": "1036",
+          "hours": "993",
+          "fte": "0.6"
+        },
+        {
+          "id": "g53-23",
+          "gender": "female",
+          "category": "B",
+          "basic": "54388",
+          "complementary": "4026",
+          "hours": "1348.00",
+          "fte": "0.8"
+        },
+        {
+          "id": "g53-24",
+          "gender": "female",
+          "category": "D",
+          "basic": "25336",
+          "complementary": "8413",
+          "hours": "1027",
+          "fte": "0.6"
+        },
+        {
+          "id": "g53-25",
+          "gender": "female",
+          "category": "F",
+          "basic": "62515",
+          "complementary": "139",
+          "hours": "1025.00",
+          "fte": "0.6"
+        },
+        {
+          "id": "g53-26",
+          "gender": "male",
+          "category": "B",
+          "basic": "27637",
+          "complementary": "952",
+          "hours": "998.00",
+          "fte": "0.6"
+        },
+        {
+          "id": "g53-27",
+          "gender": "female",
+          "category": "A",
+          "basic": "30574",
+          "complementary": "5362",
+          "hours": "831",
+          "fte": "0.5"
+        },
+        {
+          "id": "g53-28",
+          "gender": "female",
+          "category": "F",
+          "basic": "27127",
+          "complementary": "1651",
+          "hours": "844.00",
+          "fte": "0.5"
+        },
+        {
+          "id": "g53-29",
+          "gender": "male",
+          "category": "C",
+          "basic": "40856",
+          "complementary": "0",
+          "hours": "1026",
+          "fte": "0.6"
+        },
+        {
+          "id": "g53-30",
+          "gender": "female",
+          "category": "C",
+          "basic": "39899",
+          "complementary": "0",
+          "hours": "1706.00",
+          "fte": "1"
+        },
+        {
+          "id": "g53-31",
+          "gender": "female",
+          "category": "B",
+          "basic": "49495",
+          "complementary": "0",
+          "hours": "847",
+          "fte": "0.5"
+        },
+        {
+          "id": "g53-32",
+          "gender": "other",
+          "category": "B",
+          "basic": "51462",
+          "complementary": "1240",
+          "hours": "829.00",
+          "fte": "0.5"
+        },
+        {
+          "id": "g53-33",
+          "gender": "male",
+          "category": "B",
+          "basic": "66166",
+          "complementary": "8098",
+          "hours": "1688.00",
+          "fte": "1"
+        },
+        {
+          "id": "g53-34",
+          "gender": "male",
+          "category": "C",
+          "basic": "28347",
+          "complementary": "0",
+          "hours": "1367",
+          "fte": "0.8"
+        },
+        {
+          "id": "g53-35",
+          "gender": "male",
+          "category": "C",
+          "basic": "28168",
+          "complementary": "0",
+          "hours": "1690.00",
+          "fte": "1"
+        },
+        {
+          "id": "g53-36",
+          "gender": "female",
+          "category": "A",
+          "basic": "54532",
+          "complementary": "0",
+          "hours": "1718.00",
+          "fte": "1"
+        },
+        {
+          "id": "g53-37",
+          "gender": "female",
+          "category": "E",
+          "basic": "59043",
+          "complementary": "4675",
+          "hours": "1002",
+          "fte": "0.6"
+        },
+        {
+          "id": "g53-38",
+          "gender": "female",
+          "category": "F",
+          "basic": "55597",
+          "complementary": "8455",
+          "hours": "1372.00",
+          "fte": "0.8"
+        },
+        {
+          "id": "g53-39",
+          "gender": "female",
+          "category": "G",
+          "basic": "66742",
+          "complementary": "2845",
+          "hours": "1687",
+          "fte": "1"
+        },
+        {
+          "id": "g53-40",
+          "gender": "female",
+          "category": "C",
+          "basic": "47590",
+          "complementary": "0",
+          "hours": "1024.00",
+          "fte": "0.6"
+        },
+        {
+          "id": "g53-41",
+          "gender": "female",
+          "category": "F",
+          "basic": "33565",
+          "complementary": "2885",
+          "hours": "1689.00",
+          "fte": "1"
+        },
+        {
+          "id": "g53-42",
+          "gender": "male",
+          "category": "A",
+          "basic": "71209",
+          "complementary": "4930",
+          "hours": "1709",
+          "fte": "1"
+        },
+        {
+          "id": "g53-43",
+          "gender": "female",
+          "category": "E",
+          "basic": "58792",
+          "complementary": "6021",
+          "hours": "1681",
+          "fte": "1"
+        },
+        {
+          "id": "g53-44",
+          "gender": "male",
+          "category": "G",
+          "basic": "72687",
+          "complementary": "7936",
+          "hours": "845.00",
+          "fte": "0.5"
+        },
+        {
+          "id": "g53-45",
+          "gender": "male",
+          "category": "C",
+          "basic": "51274",
+          "complementary": "8012",
+          "hours": "1369.00",
+          "fte": "0.8"
+        },
+        {
+          "id": "g53-46",
+          "gender": "male",
+          "category": "B",
+          "basic": "41183",
+          "complementary": "0",
+          "hours": "1712.00",
+          "fte": "1"
+        },
+        {
+          "id": "g53-47",
+          "gender": "female",
+          "category": "D",
+          "basic": "53877",
+          "complementary": "4440",
+          "hours": "1018.00",
+          "fte": "0.6"
+        },
+        {
+          "id": "g53-48",
+          "gender": "female",
+          "category": "C",
+          "basic": "42706",
+          "complementary": "0",
+          "hours": "1012",
+          "fte": "0.6"
+        },
+        {
+          "id": "g53-49",
+          "gender": "male",
+          "category": "B",
+          "basic": "45182",
+          "complementary": "0",
+          "hours": "1693",
+          "fte": "1"
+        },
+        {
+          "id": "g53-50",
+          "gender": "male",
+          "category": "F",
+          "basic": "33607",
+          "complementary": "0",
+          "hours": "854",
+          "fte": "0.5"
+        },
+        {
+          "id": "g53-51",
+          "gender": "male",
+          "category": "B",
+          "basic": "31739",
+          "complementary": "0",
+          "hours": "1359.00",
+          "fte": "0.8"
+        },
+        {
+          "id": "g53-52",
+          "gender": "male",
+          "category": "C",
+          "basic": "70151",
+          "complementary": "0",
+          "hours": "1715.00",
+          "fte": "1"
+        },
+        {
+          "id": "g53-53",
+          "gender": "female",
+          "category": "C",
+          "basic": "26094",
+          "complementary": "5365",
+          "hours": "1007",
+          "fte": "0.6"
+        },
+        {
+          "id": "g53-54",
+          "gender": "female",
+          "category": "F",
+          "basic": "47015",
+          "complementary": "0",
+          "hours": "1345",
+          "fte": "0.8"
+        },
+        {
+          "id": "g53-55",
+          "gender": "male",
+          "category": "D",
+          "basic": "65063",
+          "complementary": "0",
+          "hours": "1684.00",
+          "fte": "1"
+        },
+        {
+          "id": "g53-56",
+          "gender": "male",
+          "category": "E",
+          "basic": "34831",
+          "complementary": "5911",
+          "hours": "1714.00",
+          "fte": "1"
+        },
+        {
+          "id": "g53-57",
+          "gender": "male",
+          "category": "C",
+          "basic": "59322",
+          "complementary": "1292",
+          "hours": "1370.00",
+          "fte": "0.8"
+        },
+        {
+          "id": "g53-58",
+          "gender": "female",
+          "category": "A",
+          "basic": "58257",
+          "complementary": "3957",
+          "hours": "1701",
+          "fte": "1"
+        },
+        {
+          "id": "g53-59",
+          "gender": "female",
+          "category": "E",
+          "basic": "63166",
+          "complementary": "0",
+          "hours": "1682.00",
+          "fte": "1"
+        }
+      ],
+      "expected": {
+        "workersIncluded": {
+          "female": 29,
+          "male": 29,
+          "otherInBands": 0
+        },
+        "proportionReceivingComplementary": {
+          "female": {
+            "workers": 29,
+            "proportion": {
+              "status": "ok",
+              "value": "62.07"
+            }
+          },
+          "male": {
+            "workers": 29,
+            "proportion": {
+              "status": "ok",
+              "value": "55.17"
+            }
+          }
+        },
+        "bases": [
+          {
+            "basis": "annual",
+            "genderPayGap": {
+              "female": {
+                "workers": 29,
+                "average": {
+                  "status": "ok",
+                  "value": "48971.45"
+                }
+              },
+              "male": {
+                "workers": 29,
+                "average": {
+                  "status": "ok",
+                  "value": "51617.55"
+                }
+              },
+              "gap": {
+                "status": "ok",
+                "value": "5.13"
+              }
+            },
+            "complementaryPayGap": {
+              "female": {
+                "workers": 29,
+                "average": {
+                  "status": "ok",
+                  "value": "2414.03"
+                }
+              },
+              "male": {
+                "workers": 29,
+                "average": {
+                  "status": "ok",
+                  "value": "2521.10"
+                }
+              },
+              "gap": {
+                "status": "ok",
+                "value": "4.25"
+              }
+            },
+            "medianGenderPayGap": {
+              "female": {
+                "workers": 29,
+                "median": {
+                  "status": "ok",
+                  "value": "49184.00"
+                }
+              },
+              "male": {
+                "workers": 29,
+                "median": {
+                  "status": "ok",
+                  "value": "47257.00"
+                }
+              },
+              "gap": {
+                "status": "ok",
+                "value": "-4.08"
+              }
+            },
+            "medianComplementaryPayGap": {
+              "female": {
+                "workers": 29,
+                "median": {
+                  "status": "ok",
+                  "value": "1651.00"
+                }
+              },
+              "male": {
+                "workers": 29,
+                "median": {
+                  "status": "ok",
+                  "value": "560.00"
+                }
+              },
+              "gap": {
+                "status": "ok",
+                "value": "-194.82"
+              }
+            },
+            "quartilePayBands": [
+              {
+                "band": 1,
+                "workers": "15.00",
+                "female": {
+                  "status": "ok",
+                  "value": "46.67"
+                },
+                "male": {
+                  "status": "ok",
+                  "value": "53.33"
+                }
+              },
+              {
+                "band": 2,
+                "workers": "14.00",
+                "female": {
+                  "status": "ok",
+                  "value": "50.00"
+                },
+                "male": {
+                  "status": "ok",
+                  "value": "50.00"
+                }
+              },
+              {
+                "band": 3,
+                "workers": "15.00",
+                "female": {
+                  "status": "ok",
+                  "value": "66.67"
+                },
+                "male": {
+                  "status": "ok",
+                  "value": "33.33"
+                }
+              },
+              {
+                "band": 4,
+                "workers": "14.00",
+                "female": {
+                  "status": "ok",
+                  "value": "35.71"
+                },
+                "male": {
+                  "status": "ok",
+                  "value": "64.29"
+                }
+              }
+            ],
+            "categories": [
+              {
+                "category": "A",
+                "female": {
+                  "workers": 4,
+                  "basicAverage": {
+                    "status": "suppressed",
+                    "reason": "below-minimum-group-size"
+                  },
+                  "complementaryAverage": {
+                    "status": "suppressed",
+                    "reason": "below-minimum-group-size"
+                  },
+                  "totalAverage": {
+                    "status": "suppressed",
+                    "reason": "below-minimum-group-size"
+                  }
+                },
+                "male": {
+                  "workers": 2,
+                  "basicAverage": {
+                    "status": "suppressed",
+                    "reason": "below-minimum-group-size"
+                  },
+                  "complementaryAverage": {
+                    "status": "suppressed",
+                    "reason": "below-minimum-group-size"
+                  },
+                  "totalAverage": {
+                    "status": "suppressed",
+                    "reason": "below-minimum-group-size"
+                  }
+                },
+                "basicPayGap": {
+                  "status": "suppressed",
+                  "reason": "below-minimum-group-size"
+                },
+                "complementaryPayGap": {
+                  "status": "suppressed",
+                  "reason": "below-minimum-group-size"
+                },
+                "totalPayGap": {
+                  "status": "suppressed",
+                  "reason": "below-minimum-group-size"
+                },
+                "jointAssessmentThreshold": "withheld"
+              },
+              {
+                "category": "B",
+                "female": {
+                  "workers": 2,
+                  "basicAverage": {
+                    "status": "suppressed",
+                    "reason": "below-minimum-group-size"
+                  },
+                  "complementaryAverage": {
+                    "status": "suppressed",
+                    "reason": "below-minimum-group-size"
+                  },
+                  "totalAverage": {
+                    "status": "suppressed",
+                    "reason": "below-minimum-group-size"
+                  }
+                },
+                "male": {
+                  "workers": 7,
+                  "basicAverage": {
+                    "status": "suppressed",
+                    "reason": "few-recipients"
+                  },
+                  "complementaryAverage": {
+                    "status": "suppressed",
+                    "reason": "few-recipients"
+                  },
+                  "totalAverage": {
+                    "status": "ok",
+                    "value": "41496.57"
+                  }
+                },
+                "basicPayGap": {
+                  "status": "suppressed",
+                  "reason": "below-minimum-group-size"
+                },
+                "complementaryPayGap": {
+                  "status": "suppressed",
+                  "reason": "below-minimum-group-size"
+                },
+                "totalPayGap": {
+                  "status": "suppressed",
+                  "reason": "below-minimum-group-size"
+                },
+                "jointAssessmentThreshold": "withheld"
+              },
+              {
+                "category": "C",
+                "female": {
+                  "workers": 7,
+                  "basicAverage": {
+                    "status": "suppressed",
+                    "reason": "few-recipients"
+                  },
+                  "complementaryAverage": {
+                    "status": "suppressed",
+                    "reason": "few-recipients"
+                  },
+                  "totalAverage": {
+                    "status": "ok",
+                    "value": "41858.86"
+                  }
+                },
+                "male": {
+                  "workers": 7,
+                  "basicAverage": {
+                    "status": "suppressed",
+                    "reason": "few-recipients"
+                  },
+                  "complementaryAverage": {
+                    "status": "suppressed",
+                    "reason": "few-recipients"
+                  },
+                  "totalAverage": {
+                    "status": "ok",
+                    "value": "47811.29"
+                  }
+                },
+                "basicPayGap": {
+                  "status": "suppressed",
+                  "reason": "few-recipients"
+                },
+                "complementaryPayGap": {
+                  "status": "suppressed",
+                  "reason": "few-recipients"
+                },
+                "totalPayGap": {
+                  "status": "ok",
+                  "value": "12.45"
+                },
+                "jointAssessmentThreshold": "met"
+              },
+              {
+                "category": "D",
+                "female": {
+                  "workers": 3,
+                  "basicAverage": {
+                    "status": "suppressed",
+                    "reason": "below-minimum-group-size"
+                  },
+                  "complementaryAverage": {
+                    "status": "suppressed",
+                    "reason": "below-minimum-group-size"
+                  },
+                  "totalAverage": {
+                    "status": "suppressed",
+                    "reason": "below-minimum-group-size"
+                  }
+                },
+                "male": {
+                  "workers": 3,
+                  "basicAverage": {
+                    "status": "suppressed",
+                    "reason": "below-minimum-group-size"
+                  },
+                  "complementaryAverage": {
+                    "status": "suppressed",
+                    "reason": "below-minimum-group-size"
+                  },
+                  "totalAverage": {
+                    "status": "suppressed",
+                    "reason": "below-minimum-group-size"
+                  }
+                },
+                "basicPayGap": {
+                  "status": "suppressed",
+                  "reason": "below-minimum-group-size"
+                },
+                "complementaryPayGap": {
+                  "status": "suppressed",
+                  "reason": "below-minimum-group-size"
+                },
+                "totalPayGap": {
+                  "status": "suppressed",
+                  "reason": "below-minimum-group-size"
+                },
+                "jointAssessmentThreshold": "withheld"
+              },
+              {
+                "category": "E",
+                "female": {
+                  "workers": 4,
+                  "basicAverage": {
+                    "status": "suppressed",
+                    "reason": "below-minimum-group-size"
+                  },
+                  "complementaryAverage": {
+                    "status": "suppressed",
+                    "reason": "below-minimum-group-size"
+                  },
+                  "totalAverage": {
+                    "status": "suppressed",
+                    "reason": "below-minimum-group-size"
+                  }
+                },
+                "male": {
+                  "workers": 3,
+                  "basicAverage": {
+                    "status": "suppressed",
+                    "reason": "below-minimum-group-size"
+                  },
+                  "complementaryAverage": {
+                    "status": "suppressed",
+                    "reason": "below-minimum-group-size"
+                  },
+                  "totalAverage": {
+                    "status": "suppressed",
+                    "reason": "below-minimum-group-size"
+                  }
+                },
+                "basicPayGap": {
+                  "status": "suppressed",
+                  "reason": "below-minimum-group-size"
+                },
+                "complementaryPayGap": {
+                  "status": "suppressed",
+                  "reason": "below-minimum-group-size"
+                },
+                "totalPayGap": {
+                  "status": "suppressed",
+                  "reason": "below-minimum-group-size"
+                },
+                "jointAssessmentThreshold": "withheld"
+              },
+              {
+                "category": "F",
+                "female": {
+                  "workers": 7,
+                  "basicAverage": {
+                    "status": "suppressed",
+                    "reason": "few-recipients"
+                  },
+                  "complementaryAverage": {
+                    "status": "suppressed",
+                    "reason": "few-recipients"
+                  },
+                  "totalAverage": {
+                    "status": "ok",
+                    "value": "44994.14"
+                  }
+                },
+                "male": {
+                  "workers": 3,
+                  "basicAverage": {
+                    "status": "suppressed",
+                    "reason": "below-minimum-group-size"
+                  },
+                  "complementaryAverage": {
+                    "status": "suppressed",
+                    "reason": "below-minimum-group-size"
+                  },
+                  "totalAverage": {
+                    "status": "suppressed",
+                    "reason": "below-minimum-group-size"
+                  }
+                },
+                "basicPayGap": {
+                  "status": "suppressed",
+                  "reason": "few-recipients"
+                },
+                "complementaryPayGap": {
+                  "status": "suppressed",
+                  "reason": "few-recipients"
+                },
+                "totalPayGap": {
+                  "status": "suppressed",
+                  "reason": "below-minimum-group-size"
+                },
+                "jointAssessmentThreshold": "withheld"
+              },
+              {
+                "category": "G",
+                "female": {
+                  "workers": 2,
+                  "basicAverage": {
+                    "status": "suppressed",
+                    "reason": "below-minimum-group-size"
+                  },
+                  "complementaryAverage": {
+                    "status": "suppressed",
+                    "reason": "below-minimum-group-size"
+                  },
+                  "totalAverage": {
+                    "status": "suppressed",
+                    "reason": "below-minimum-group-size"
+                  }
+                },
+                "male": {
+                  "workers": 4,
+                  "basicAverage": {
+                    "status": "suppressed",
+                    "reason": "below-minimum-group-size"
+                  },
+                  "complementaryAverage": {
+                    "status": "suppressed",
+                    "reason": "below-minimum-group-size"
+                  },
+                  "totalAverage": {
+                    "status": "suppressed",
+                    "reason": "below-minimum-group-size"
+                  }
+                },
+                "basicPayGap": {
+                  "status": "suppressed",
+                  "reason": "below-minimum-group-size"
+                },
+                "complementaryPayGap": {
+                  "status": "suppressed",
+                  "reason": "below-minimum-group-size"
+                },
+                "totalPayGap": {
+                  "status": "suppressed",
+                  "reason": "below-minimum-group-size"
+                },
+                "jointAssessmentThreshold": "withheld"
+              }
+            ]
+          },
+          {
+            "basis": "hourly",
+            "genderPayGap": {
+              "female": {
+                "workers": 29,
+                "average": {
+                  "status": "ok",
+                  "value": "38.55"
+                }
+              },
+              "male": {
+                "workers": 29,
+                "average": {
+                  "status": "ok",
+                  "value": "40.00"
+                }
+              },
+              "gap": {
+                "status": "ok",
+                "value": "3.63"
+              }
+            },
+            "complementaryPayGap": {
+              "female": {
+                "workers": 29,
+                "average": {
+                  "status": "ok",
+                  "value": "1.96"
+                }
+              },
+              "male": {
+                "workers": 29,
+                "average": {
+                  "status": "ok",
+                  "value": "2.05"
+                }
+              },
+              "gap": {
+                "status": "ok",
+                "value": "4.69"
+              }
+            },
+            "medianGenderPayGap": {
+              "female": {
+                "workers": 29,
+                "median": {
+                  "status": "ok",
+                  "value": "37.55"
+                }
+              },
+              "male": {
+                "workers": 29,
+                "median": {
+                  "status": "ok",
+                  "value": "39.35"
+                }
+              },
+              "gap": {
+                "status": "ok",
+                "value": "4.57"
+              }
+            },
+            "medianComplementaryPayGap": {
+              "female": {
+                "workers": 29,
+                "median": {
+                  "status": "ok",
+                  "value": "1.59"
+                }
+              },
+              "male": {
+                "workers": 29,
+                "median": {
+                  "status": "ok",
+                  "value": "0.33"
+                }
+              },
+              "gap": {
+                "status": "ok",
+                "value": "-379.62"
+              }
+            },
+            "quartilePayBands": [
+              {
+                "band": 1,
+                "workers": "15.00",
+                "female": {
+                  "status": "ok",
+                  "value": "40.00"
+                },
+                "male": {
+                  "status": "ok",
+                  "value": "60.00"
+                }
+              },
+              {
+                "band": 2,
+                "workers": "14.00",
+                "female": {
+                  "status": "ok",
+                  "value": "71.43"
+                },
+                "male": {
+                  "status": "ok",
+                  "value": "28.57"
+                }
+              },
+              {
+                "band": 3,
+                "workers": "15.00",
+                "female": {
+                  "status": "ok",
+                  "value": "33.33"
+                },
+                "male": {
+                  "status": "ok",
+                  "value": "66.67"
+                }
+              },
+              {
+                "band": 4,
+                "workers": "14.00",
+                "female": {
+                  "status": "ok",
+                  "value": "57.14"
+                },
+                "male": {
+                  "status": "ok",
+                  "value": "42.86"
+                }
+              }
+            ],
+            "categories": [
+              {
+                "category": "A",
+                "female": {
+                  "workers": 4,
+                  "basicAverage": {
+                    "status": "suppressed",
+                    "reason": "below-minimum-group-size"
+                  },
+                  "complementaryAverage": {
+                    "status": "suppressed",
+                    "reason": "below-minimum-group-size"
+                  },
+                  "totalAverage": {
+                    "status": "suppressed",
+                    "reason": "below-minimum-group-size"
+                  }
+                },
+                "male": {
+                  "workers": 2,
+                  "basicAverage": {
+                    "status": "suppressed",
+                    "reason": "below-minimum-group-size"
+                  },
+                  "complementaryAverage": {
+                    "status": "suppressed",
+                    "reason": "below-minimum-group-size"
+                  },
+                  "totalAverage": {
+                    "status": "suppressed",
+                    "reason": "below-minimum-group-size"
+                  }
+                },
+                "basicPayGap": {
+                  "status": "suppressed",
+                  "reason": "below-minimum-group-size"
+                },
+                "complementaryPayGap": {
+                  "status": "suppressed",
+                  "reason": "below-minimum-group-size"
+                },
+                "totalPayGap": {
+                  "status": "suppressed",
+                  "reason": "below-minimum-group-size"
+                },
+                "jointAssessmentThreshold": "withheld"
+              },
+              {
+                "category": "B",
+                "female": {
+                  "workers": 2,
+                  "basicAverage": {
+                    "status": "suppressed",
+                    "reason": "below-minimum-group-size"
+                  },
+                  "complementaryAverage": {
+                    "status": "suppressed",
+                    "reason": "below-minimum-group-size"
+                  },
+                  "totalAverage": {
+                    "status": "suppressed",
+                    "reason": "below-minimum-group-size"
+                  }
+                },
+                "male": {
+                  "workers": 7,
+                  "basicAverage": {
+                    "status": "suppressed",
+                    "reason": "few-recipients"
+                  },
+                  "complementaryAverage": {
+                    "status": "suppressed",
+                    "reason": "few-recipients"
+                  },
+                  "totalAverage": {
+                    "status": "ok",
+                    "value": "26.82"
+                  }
+                },
+                "basicPayGap": {
+                  "status": "suppressed",
+                  "reason": "below-minimum-group-size"
+                },
+                "complementaryPayGap": {
+                  "status": "suppressed",
+                  "reason": "below-minimum-group-size"
+                },
+                "totalPayGap": {
+                  "status": "suppressed",
+                  "reason": "below-minimum-group-size"
+                },
+                "jointAssessmentThreshold": "withheld"
+              },
+              {
+                "category": "C",
+                "female": {
+                  "workers": 7,
+                  "basicAverage": {
+                    "status": "suppressed",
+                    "reason": "few-recipients"
+                  },
+                  "complementaryAverage": {
+                    "status": "suppressed",
+                    "reason": "few-recipients"
+                  },
+                  "totalAverage": {
+                    "status": "ok",
+                    "value": "35.07"
+                  }
+                },
+                "male": {
+                  "workers": 7,
+                  "basicAverage": {
+                    "status": "suppressed",
+                    "reason": "few-recipients"
+                  },
+                  "complementaryAverage": {
+                    "status": "suppressed",
+                    "reason": "few-recipients"
+                  },
+                  "totalAverage": {
+                    "status": "ok",
+                    "value": "36.18"
+                  }
+                },
+                "basicPayGap": {
+                  "status": "suppressed",
+                  "reason": "few-recipients"
+                },
+                "complementaryPayGap": {
+                  "status": "suppressed",
+                  "reason": "few-recipients"
+                },
+                "totalPayGap": {
+                  "status": "ok",
+                  "value": "3.08"
+                },
+                "jointAssessmentThreshold": "not-met"
+              },
+              {
+                "category": "D",
+                "female": {
+                  "workers": 3,
+                  "basicAverage": {
+                    "status": "suppressed",
+                    "reason": "below-minimum-group-size"
+                  },
+                  "complementaryAverage": {
+                    "status": "suppressed",
+                    "reason": "below-minimum-group-size"
+                  },
+                  "totalAverage": {
+                    "status": "suppressed",
+                    "reason": "below-minimum-group-size"
+                  }
+                },
+                "male": {
+                  "workers": 3,
+                  "basicAverage": {
+                    "status": "suppressed",
+                    "reason": "below-minimum-group-size"
+                  },
+                  "complementaryAverage": {
+                    "status": "suppressed",
+                    "reason": "below-minimum-group-size"
+                  },
+                  "totalAverage": {
+                    "status": "suppressed",
+                    "reason": "below-minimum-group-size"
+                  }
+                },
+                "basicPayGap": {
+                  "status": "suppressed",
+                  "reason": "below-minimum-group-size"
+                },
+                "complementaryPayGap": {
+                  "status": "suppressed",
+                  "reason": "below-minimum-group-size"
+                },
+                "totalPayGap": {
+                  "status": "suppressed",
+                  "reason": "below-minimum-group-size"
+                },
+                "jointAssessmentThreshold": "withheld"
+              },
+              {
+                "category": "E",
+                "female": {
+                  "workers": 4,
+                  "basicAverage": {
+                    "status": "suppressed",
+                    "reason": "below-minimum-group-size"
+                  },
+                  "complementaryAverage": {
+                    "status": "suppressed",
+                    "reason": "below-minimum-group-size"
+                  },
+                  "totalAverage": {
+                    "status": "suppressed",
+                    "reason": "below-minimum-group-size"
+                  }
+                },
+                "male": {
+                  "workers": 3,
+                  "basicAverage": {
+                    "status": "suppressed",
+                    "reason": "below-minimum-group-size"
+                  },
+                  "complementaryAverage": {
+                    "status": "suppressed",
+                    "reason": "below-minimum-group-size"
+                  },
+                  "totalAverage": {
+                    "status": "suppressed",
+                    "reason": "below-minimum-group-size"
+                  }
+                },
+                "basicPayGap": {
+                  "status": "suppressed",
+                  "reason": "below-minimum-group-size"
+                },
+                "complementaryPayGap": {
+                  "status": "suppressed",
+                  "reason": "below-minimum-group-size"
+                },
+                "totalPayGap": {
+                  "status": "suppressed",
+                  "reason": "below-minimum-group-size"
+                },
+                "jointAssessmentThreshold": "withheld"
+              },
+              {
+                "category": "F",
+                "female": {
+                  "workers": 7,
+                  "basicAverage": {
+                    "status": "suppressed",
+                    "reason": "few-recipients"
+                  },
+                  "complementaryAverage": {
+                    "status": "suppressed",
+                    "reason": "few-recipients"
+                  },
+                  "totalAverage": {
+                    "status": "ok",
+                    "value": "38.80"
+                  }
+                },
+                "male": {
+                  "workers": 3,
+                  "basicAverage": {
+                    "status": "suppressed",
+                    "reason": "below-minimum-group-size"
+                  },
+                  "complementaryAverage": {
+                    "status": "suppressed",
+                    "reason": "below-minimum-group-size"
+                  },
+                  "totalAverage": {
+                    "status": "suppressed",
+                    "reason": "below-minimum-group-size"
+                  }
+                },
+                "basicPayGap": {
+                  "status": "suppressed",
+                  "reason": "few-recipients"
+                },
+                "complementaryPayGap": {
+                  "status": "suppressed",
+                  "reason": "few-recipients"
+                },
+                "totalPayGap": {
+                  "status": "suppressed",
+                  "reason": "below-minimum-group-size"
+                },
+                "jointAssessmentThreshold": "withheld"
+              },
+              {
+                "category": "G",
+                "female": {
+                  "workers": 2,
+                  "basicAverage": {
+                    "status": "suppressed",
+                    "reason": "below-minimum-group-size"
+                  },
+                  "complementaryAverage": {
+                    "status": "suppressed",
+                    "reason": "below-minimum-group-size"
+                  },
+                  "totalAverage": {
+                    "status": "suppressed",
+                    "reason": "below-minimum-group-size"
+                  }
+                },
+                "male": {
+                  "workers": 4,
+                  "basicAverage": {
+                    "status": "suppressed",
+                    "reason": "below-minimum-group-size"
+                  },
+                  "complementaryAverage": {
+                    "status": "suppressed",
+                    "reason": "below-minimum-group-size"
+                  },
+                  "totalAverage": {
+                    "status": "suppressed",
+                    "reason": "below-minimum-group-size"
+                  }
+                },
+                "basicPayGap": {
+                  "status": "suppressed",
+                  "reason": "below-minimum-group-size"
+                },
+                "complementaryPayGap": {
+                  "status": "suppressed",
+                  "reason": "below-minimum-group-size"
+                },
+                "totalPayGap": {
+                  "status": "suppressed",
+                  "reason": "below-minimum-group-size"
+                },
+                "jointAssessmentThreshold": "withheld"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

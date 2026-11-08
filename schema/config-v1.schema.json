@@ -1,0 +1,63 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/afkzonagroup/evenkeel/blob/main/schema/config-v1.schema.json",
+  "title": "Evenkeel configuration, version 1",
+  "description": "Column mapping and the choices Directive (EU) 2023/970 leaves to Member States or employers. The program validates the same rules itself (validateConfig); this schema is for editors.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["version", "columns", "genderCodes", "otherGender", "payBases", "complementaryGapPopulation", "quartileMethod"],
+  "properties": {
+    "$schema": { "type": "string" },
+    "description": { "type": "string", "maxLength": 1000 },
+    "version": { "const": 1 },
+    "csv": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "delimiter": { "enum": [",", ";", "\t", "|"], "default": "," },
+        "decimalSeparator": { "enum": [".", ","], "default": "." },
+        "thousandsSeparator": { "enum": ["none", " ", ".", ",", "'"], "default": "none" },
+        "encoding": { "enum": ["utf-8", "windows-1252"], "default": "utf-8" },
+        "maxBytes": { "type": "integer", "minimum": 1, "maximum": 536870912, "default": 52428800 },
+        "maxRows": { "type": "integer", "minimum": 1, "maximum": 5000000, "default": 1000000 }
+      }
+    },
+    "columns": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["workerId", "gender", "basicPay", "complementaryPay"],
+      "properties": {
+        "workerId": { "$ref": "#/$defs/name" },
+        "gender": { "$ref": "#/$defs/name" },
+        "category": { "$ref": "#/$defs/name" },
+        "basicPay": { "type": "array", "minItems": 1, "maxItems": 50, "items": { "$ref": "#/$defs/name" } },
+        "complementaryPay": { "type": "array", "minItems": 0, "maxItems": 50, "items": { "$ref": "#/$defs/name" } },
+        "hours": { "$ref": "#/$defs/name" },
+        "fte": { "$ref": "#/$defs/name" },
+        "period": { "$ref": "#/$defs/name" }
+      }
+    },
+    "genderCodes": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["female", "male"],
+      "properties": {
+        "female": { "type": "array", "minItems": 1, "maxItems": 50, "items": { "$ref": "#/$defs/name" } },
+        "male": { "type": "array", "minItems": 1, "maxItems": 50, "items": { "$ref": "#/$defs/name" } },
+        "other": { "type": "array", "minItems": 0, "maxItems": 50, "items": { "$ref": "#/$defs/name" } }
+      }
+    },
+    "otherGender": { "enum": ["reject", "exclude", "include-in-totals"] },
+    "payBases": { "type": "array", "minItems": 1, "maxItems": 2, "uniqueItems": true, "items": { "enum": ["annual", "hourly"] } },
+    "annualPay": { "enum": ["actual", "full-time-equivalent"] },
+    "complementaryGapPopulation": { "enum": ["recipients", "all-workers"] },
+    "quartileMethod": { "enum": ["exact-equal-groups", "whole-workers-ties-together"] },
+    "minimumGroupSize": { "type": "integer", "minimum": 1, "maximum": 1000, "default": 5 },
+    "duplicateWorkerRows": { "enum": ["reject", "sum"], "default": "reject" },
+    "referencePeriod": { "$ref": "#/$defs/name" },
+    "decimals": { "type": "integer", "minimum": 0, "maximum": 6, "default": 2 }
+  },
+  "$defs": {
+    "name": { "type": "string", "minLength": 1, "maxLength": 200 }
+  }
+}

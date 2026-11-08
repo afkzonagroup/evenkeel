@@ -1,0 +1,49 @@
+{
+  "$schema": "https://github.com/afkzonagroup/evenkeel/blob/main/schema/config-v1.schema.json",
+  "description": "EXAMPLE ONLY - verify every column name, code and number format against your own export before use. Replace each 'CHOOSE: ...' value with one option; see docs/configuration.md. This is not the documented format of any particular payroll or HR product.",
+  "version": 1,
+  "csv": {
+    "delimiter": ",",
+    "decimalSeparator": ".",
+    "thousandsSeparator": "none",
+    "encoding": "utf-8"
+  },
+  "columns": {
+    "workerId": "employee_id",
+    "gender": "gender",
+    "category": "pay_grade",
+    "basicPay": [
+      "monthly_base"
+    ],
+    "complementaryPay": [
+      "monthly_variable",
+      "monthly_overtime"
+    ],
+    "hours": "monthly_paid_hours",
+    "fte": "fte",
+    "period": "year"
+  },
+  "genderCodes": {
+    "female": [
+      "female"
+    ],
+    "male": [
+      "male"
+    ],
+    "other": [
+      "diverse"
+    ]
+  },
+  "otherGender": "CHOOSE: reject | exclude | include-in-totals",
+  "payBases": [
+    "annual",
+    "hourly"
+  ],
+  "annualPay": "CHOOSE: actual | full-time-equivalent",
+  "complementaryGapPopulation": "CHOOSE: recipients | all-workers",
+  "quartileMethod": "CHOOSE: exact-equal-groups | whole-workers-ties-together",
+  "minimumGroupSize": 5,
+  "duplicateWorkerRows": "sum",
+  "referencePeriod": "2026",
+  "decimals": 2
+}

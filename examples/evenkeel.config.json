@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "csv": { "delimiter": ",", "decimalSeparator": ".", "thousandsSeparator": "none", "encoding": "utf-8" },
+  "columns": {
+    "workerId": "employee_id",
+    "gender": "sex",
+    "category": "job_category",
+    "basicPay": ["base_salary"],
+    "complementaryPay": ["bonus", "overtime"],
+    "hours": "paid_hours",
+    "fte": "fte",
+    "period": "year"
+  },
+  "genderCodes": { "female": ["F"], "male": ["M"], "other": ["X"] },
+  "otherGender": "exclude",
+  "payBases": ["annual", "hourly"],
+  "annualPay": "full-time-equivalent",
+  "complementaryGapPopulation": "recipients",
+  "quartileMethod": "exact-equal-groups",
+  "minimumGroupSize": 5,
+  "duplicateWorkerRows": "reject",
+  "referencePeriod": "2026",
+  "decimals": 2
+}
