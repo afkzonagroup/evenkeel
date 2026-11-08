@@ -20,7 +20,7 @@ classifiers = [
 dependencies = []
 
 [project.optional-dependencies]
-pandas = ["pandas>=2.0"]
+pandas = ["pandas>=2.3.3"]
 
 [project.urls]
 Homepage = "https://github.com/afkzonagroup/evenkeel"
